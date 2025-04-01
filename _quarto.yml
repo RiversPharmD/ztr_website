@@ -28,4 +28,10 @@ format:
     css: styles.css
     bibliography: references.bib
     citation-link: true
-    link-citations: true 
+    link-citations: true
+
+execute:
+  freeze: auto
+
+# GitHub Pages deployment configuration
+publish-dir: docs 
