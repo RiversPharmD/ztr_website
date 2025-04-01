@@ -28,4 +28,16 @@ This is my personal website where I share my projects, thoughts, and professiona
 
 # This is a placeholder for dynamic project listing
 # You can implement this later using R or other methods
-``` 
+```
+
+## Published Works
+
+I have published extensively in the fields of pharmacogenomics, health economics, and cancer research. My work focuses on:
+
+- Pharmacogenomics implementation in clinical practice
+- Cost-effectiveness analysis of genetic testing
+- Real-world evidence in cancer treatment
+- Health disparities in cancer care
+- Economic evaluation of precision medicine
+
+For a complete list of my publications, please visit the [Published Works](/bibliography/published_works.qmd) section. 
