@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Zach's Personal Website"
+  navbar:
+    left:
+      - text: "Home"
+        file: index.qmd
+      - text: "About"
+        file: about.qmd
+      - text: "Projects"
+        file: projects.qmd
+      - text: "Blog"
+        file: blog/index.qmd
+  page-navigation: true
+  page-footer:
+    left: Copyright 2024
+    right: Made with Quarto
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    code-fold: true
+    highlight-style: github
+    css: styles.css
+    bibliography: bibliography/references.bib
+    citation-link: true
+    link-citations: true 

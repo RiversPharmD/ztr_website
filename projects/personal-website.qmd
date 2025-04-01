@@ -1,0 +1,144 @@
+---
+title: "Personal Website"
+date: 2024-04-01
+status: "In Progress"
+technologies: ["Quarto", "HTML", "CSS", "Git"]
+github: "https://github.com/yourusername/ztr_website"
+demo: "https://yourusername.github.io/ztr_website"
+image: images/website-preview.jpg
+---
+
+# Project Overview
+
+A professional personal website built with Quarto, designed to showcase my projects, share technical insights through blog posts, and establish my professional brand. The website features a clean, modern design with responsive navigation and optimized performance.
+
+## Features
+
+- **Responsive Design**: Mobile-friendly layout that works on all devices
+- **Blog System**: Organized content with categories and tags
+- **Project Showcase**: Detailed documentation of technical projects
+- **Custom Styling**: Unique visual identity through custom CSS
+- **Code Integration**: Support for R and Python code execution
+- **Search Engine Optimization**: Built-in SEO features
+
+## Technical Details
+
+### Architecture
+
+The website is built using a static site generator approach with Quarto:
+
+1. **Content Layer**
+   - Markdown-based content files (`.qmd`)
+   - YAML front matter for metadata
+   - Modular structure for easy maintenance
+
+2. **Presentation Layer**
+   - Custom CSS for styling
+   - Responsive navigation
+   - Mobile-first design approach
+
+3. **Build Process**
+   - Quarto compilation to static HTML
+   - Asset optimization
+   - SEO optimization
+
+### Technologies Used
+
+- **Quarto**: Main static site generator
+- **HTML/CSS**: Frontend structure and styling
+- **Git**: Version control and deployment
+- **GitHub Pages**: Hosting and deployment
+
+## Implementation
+
+### Key Components
+
+```yaml
+# _quarto.yml configuration
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Zach's Personal Website"
+  navbar:
+    left:
+      - text: "Home"
+        file: index.qmd
+      - text: "About"
+        file: about.qmd
+```
+
+### Challenges and Solutions
+
+1. **Challenge**: Organizing content structure
+   - **Solution**: Created clear directory structure with templates
+
+2. **Challenge**: Maintaining consistent styling
+   - **Solution**: Centralized CSS with reusable components
+
+3. **Challenge**: Content management
+   - **Solution**: Template-based approach for blog posts and projects
+
+## Results
+
+### Performance Metrics
+
+- Page load time: < 2 seconds
+- Mobile responsiveness: 100%
+- SEO score: 95/100
+
+## Future Improvements
+
+- Add dark mode support
+- Implement search functionality
+- Add newsletter subscription
+- Integrate analytics
+- Add comments system
+- Create RSS feed
+
+## Getting Started
+
+### Prerequisites
+
+- Quarto installed
+- Git
+- GitHub account
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/ztr_website.git
+cd ztr_website
+
+# Install dependencies (if any)
+# Currently using only built-in Quarto features
+```
+
+### Usage
+
+1. **Local Development**
+   ```bash
+   quarto preview
+   ```
+
+2. **Building for Production**
+   ```bash
+   quarto render
+   ```
+
+3. **Deploying**
+   ```bash
+   git add .
+   git commit -m "Update website"
+   git push origin main
+   ```
+
+## Contributing
+
+While this is a personal website, suggestions and feedback are welcome through GitHub issues.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 

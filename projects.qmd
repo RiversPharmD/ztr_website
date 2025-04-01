@@ -1,0 +1,29 @@
+---
+title: "Projects"
+---
+
+# My Projects
+
+## Featured Projects
+
+### Project 1
+Description of your first project.
+
+- **Technologies used:** [List technologies]
+- **GitHub:** [Link to repository]
+- **Live demo:** [Link to demo]
+
+### Project 2
+Description of your second project.
+
+- **Technologies used:** [List technologies]
+- **GitHub:** [Link to repository]
+- **Live demo:** [Link to demo]
+
+## Other Projects
+
+### Project 3
+Brief description of another project.
+
+### Project 4
+Brief description of another project. 

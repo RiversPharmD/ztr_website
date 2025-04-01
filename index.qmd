@@ -1,0 +1,31 @@
+---
+title: "Welcome"
+---
+
+# Welcome to My Website
+
+This is my personal website where I share my projects, thoughts, and professional journey.
+
+## Recent Posts
+
+```{r}
+#| echo: false
+#| eval: false
+#| warning: false
+#| message: false
+
+# This is a placeholder for dynamic blog post listing
+# You can implement this later using R or other methods
+```
+
+## Featured Projects
+
+```{r}
+#| echo: false
+#| eval: false
+#| warning: false
+#| message: false
+
+# This is a placeholder for dynamic project listing
+# You can implement this later using R or other methods
+``` 

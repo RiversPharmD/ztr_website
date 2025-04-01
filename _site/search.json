@@ -1,0 +1,191 @@
+[
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Description of your first project.\n\nTechnologies used: [List technologies]\nGitHub: [Link to repository]\nLive demo: [Link to demo]\n\n\n\n\nDescription of your second project.\n\nTechnologies used: [List technologies]\nGitHub: [Link to repository]\nLive demo: [Link to demo]\n\n\n\n\n\n\n\nBrief description of another project.\n\n\n\nBrief description of another project."
+  },
+  {
+    "objectID": "projects.html#featured-projects",
+    "href": "projects.html#featured-projects",
+    "title": "Projects",
+    "section": "",
+    "text": "Description of your first project.\n\nTechnologies used: [List technologies]\nGitHub: [Link to repository]\nLive demo: [Link to demo]\n\n\n\n\nDescription of your second project.\n\nTechnologies used: [List technologies]\nGitHub: [Link to repository]\nLive demo: [Link to demo]"
+  },
+  {
+    "objectID": "projects.html#other-projects",
+    "href": "projects.html#other-projects",
+    "title": "Projects",
+    "section": "",
+    "text": "Brief description of another project.\n\n\n\nBrief description of another project."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "This is my personal website where I share my projects, thoughts, and professional journey."
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Welcome to my blog! Here you’ll find my thoughts, tutorials, and insights about various topics.\n\n\n\n\nPosted on [Date]\nBrief description of your first blog post.\n\n\n\nPosted on [Date]\nBrief description of your second blog post.\n\n\n\n\n\nTechnical Tutorials\nThoughts & Insights\nProject Updates"
+  },
+  {
+    "objectID": "blog/index.html#latest-posts",
+    "href": "blog/index.html#latest-posts",
+    "title": "Blog",
+    "section": "",
+    "text": "Posted on [Date]\nBrief description of your first blog post.\n\n\n\nPosted on [Date]\nBrief description of your second blog post."
+  },
+  {
+    "objectID": "blog/index.html#categories",
+    "href": "blog/index.html#categories",
+    "title": "Blog",
+    "section": "",
+    "text": "Technical Tutorials\nThoughts & Insights\nProject Updates"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "[Your professional background goes here]\n\n\n\n\nSkill 1\nSkill 2\nSkill 3\n\n\n\n\n\nDegree 1\nDegree 2\n\n\n\n\nFeel free to reach out to me at [your email]\n\n\n\n\nLinkedIn\nGitHub\nTwitter"
+  },
+  {
+    "objectID": "about.html#professional-background",
+    "href": "about.html#professional-background",
+    "title": "About Me",
+    "section": "",
+    "text": "[Your professional background goes here]"
+  },
+  {
+    "objectID": "about.html#skills-expertise",
+    "href": "about.html#skills-expertise",
+    "title": "About Me",
+    "section": "",
+    "text": "Skill 1\nSkill 2\nSkill 3"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About Me",
+    "section": "",
+    "text": "Degree 1\nDegree 2"
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About Me",
+    "section": "",
+    "text": "Feel free to reach out to me at [your email]"
+  },
+  {
+    "objectID": "about.html#social-media",
+    "href": "about.html#social-media",
+    "title": "About Me",
+    "section": "",
+    "text": "LinkedIn\nGitHub\nTwitter"
+  },
+  {
+    "objectID": "blog/posts/building-my-personal-website.html",
+    "href": "blog/posts/building-my-personal-website.html",
+    "title": "Building My Personal Website with Quarto",
+    "section": "",
+    "text": "In today’s digital age, having a personal website is more important than ever. It serves as your digital portfolio, a platform to share your thoughts, and a way to establish your professional brand. In this post, I’ll share my experience building my personal website using Quarto, a powerful scientific and technical publishing system.\n\n\nI chose Quarto for my website because it offers several advantages: - Markdown-based content creation - Built-in support for code execution and visualization - Excellent documentation and community support - Seamless integration with R and Python - Beautiful default themes and easy customization\n\n\n\n\n\nThe first step was creating a well-organized project structure:\nztr_website/\n├── _quarto.yml          # Website configuration\n├── index.qmd           # Homepage\n├── about.qmd           # About page\n├── projects/           # Project documentation\n├── blog/              # Blog posts\n│   ├── index.qmd      # Blog homepage\n│   └── posts/         # Individual blog posts\n└── styles.css         # Custom styling\n\n\n\n\nResponsive Navigation\n\nClean, mobile-friendly navigation bar\nEasy access to all major sections\nSmooth scrolling between pages\n\nBlog System\n\nOrganized by categories and tags\nSupport for code snippets and images\nEasy-to-use templates for new posts\n\nProject Showcase\n\nDetailed project documentation\nTechnical specifications\nVisual demonstrations\n\n\n\n\n\nI added custom CSS to make the website uniquely mine:\n/* Main content area */\n.main {\n    max-width: 800px;\n    margin: 0 auto;\n    padding: 20px;\n}\n\n/* Headings */\nh1, h2, h3 {\n    color: #2c3e50;\n    margin-top: 1.5em;\n}\n\n\n\n\nBuilding a personal website with Quarto has been an enlightening experience. The combination of powerful features and ease of use makes it an excellent choice for technical professionals. In future posts, I’ll share more about:\n\nAdding interactive elements\nOptimizing for search engines\nSetting up continuous deployment\nAdding analytics and monitoring\n\n\n\n\n\nQuarto Documentation\nQuarto Websites Guide\nGitHub Pages Documentation"
+  },
+  {
+    "objectID": "blog/posts/building-my-personal-website.html#background",
+    "href": "blog/posts/building-my-personal-website.html#background",
+    "title": "Building My Personal Website with Quarto",
+    "section": "",
+    "text": "I chose Quarto for my website because it offers several advantages: - Markdown-based content creation - Built-in support for code execution and visualization - Excellent documentation and community support - Seamless integration with R and Python - Beautiful default themes and easy customization"
+  },
+  {
+    "objectID": "blog/posts/building-my-personal-website.html#main-content",
+    "href": "blog/posts/building-my-personal-website.html#main-content",
+    "title": "Building My Personal Website with Quarto",
+    "section": "",
+    "text": "The first step was creating a well-organized project structure:\nztr_website/\n├── _quarto.yml          # Website configuration\n├── index.qmd           # Homepage\n├── about.qmd           # About page\n├── projects/           # Project documentation\n├── blog/              # Blog posts\n│   ├── index.qmd      # Blog homepage\n│   └── posts/         # Individual blog posts\n└── styles.css         # Custom styling\n\n\n\n\nResponsive Navigation\n\nClean, mobile-friendly navigation bar\nEasy access to all major sections\nSmooth scrolling between pages\n\nBlog System\n\nOrganized by categories and tags\nSupport for code snippets and images\nEasy-to-use templates for new posts\n\nProject Showcase\n\nDetailed project documentation\nTechnical specifications\nVisual demonstrations\n\n\n\n\n\nI added custom CSS to make the website uniquely mine:\n/* Main content area */\n.main {\n    max-width: 800px;\n    margin: 0 auto;\n    padding: 20px;\n}\n\n/* Headings */\nh1, h2, h3 {\n    color: #2c3e50;\n    margin-top: 1.5em;\n}"
+  },
+  {
+    "objectID": "blog/posts/building-my-personal-website.html#conclusion",
+    "href": "blog/posts/building-my-personal-website.html#conclusion",
+    "title": "Building My Personal Website with Quarto",
+    "section": "",
+    "text": "Building a personal website with Quarto has been an enlightening experience. The combination of powerful features and ease of use makes it an excellent choice for technical professionals. In future posts, I’ll share more about:\n\nAdding interactive elements\nOptimizing for search engines\nSetting up continuous deployment\nAdding analytics and monitoring"
+  },
+  {
+    "objectID": "blog/posts/building-my-personal-website.html#references",
+    "href": "blog/posts/building-my-personal-website.html#references",
+    "title": "Building My Personal Website with Quarto",
+    "section": "",
+    "text": "Quarto Documentation\nQuarto Websites Guide\nGitHub Pages Documentation"
+  },
+  {
+    "objectID": "projects/personal-website.html",
+    "href": "projects/personal-website.html",
+    "title": "Personal Website",
+    "section": "",
+    "text": "A professional personal website built with Quarto, designed to showcase my projects, share technical insights through blog posts, and establish my professional brand. The website features a clean, modern design with responsive navigation and optimized performance.\n\n\n\nResponsive Design: Mobile-friendly layout that works on all devices\nBlog System: Organized content with categories and tags\nProject Showcase: Detailed documentation of technical projects\nCustom Styling: Unique visual identity through custom CSS\nCode Integration: Support for R and Python code execution\nSearch Engine Optimization: Built-in SEO features\n\n\n\n\n\n\nThe website is built using a static site generator approach with Quarto:\n\nContent Layer\n\nMarkdown-based content files (.qmd)\nYAML front matter for metadata\nModular structure for easy maintenance\n\nPresentation Layer\n\nCustom CSS for styling\nResponsive navigation\nMobile-first design approach\n\nBuild Process\n\nQuarto compilation to static HTML\nAsset optimization\nSEO optimization\n\n\n\n\n\n\nQuarto: Main static site generator\nHTML/CSS: Frontend structure and styling\nGit: Version control and deployment\nGitHub Pages: Hosting and deployment\n\n\n\n\n\n\n\n# _quarto.yml configuration\nproject:\n  type: website\n  output-dir: _site\n\nwebsite:\n  title: \"Zach's Personal Website\"\n  navbar:\n    left:\n      - text: \"Home\"\n        file: index.qmd\n      - text: \"About\"\n        file: about.qmd\n\n\n\n\nChallenge: Organizing content structure\n\nSolution: Created clear directory structure with templates\n\nChallenge: Maintaining consistent styling\n\nSolution: Centralized CSS with reusable components\n\nChallenge: Content management\n\nSolution: Template-based approach for blog posts and projects\n\n\n\n\n\n\n\n\n\nPage load time: &lt; 2 seconds\nMobile responsiveness: 100%\nSEO score: 95/100\n\n\n\n\n\n\nAdd dark mode support\nImplement search functionality\nAdd newsletter subscription\nIntegrate analytics\nAdd comments system\nCreate RSS feed\n\n\n\n\n\n\n\nQuarto installed\nGit\nGitHub account\n\n\n\n\n# Clone the repository\ngit clone https://github.com/yourusername/ztr_website.git\ncd ztr_website\n\n# Install dependencies (if any)\n# Currently using only built-in Quarto features\n\n\n\n\nLocal Development\nquarto preview\nBuilding for Production\nquarto render\nDeploying\ngit add .\ngit commit -m \"Update website\"\ngit push origin main\n\n\n\n\n\nWhile this is a personal website, suggestions and feedback are welcome through GitHub issues.\n\n\n\nThis project is licensed under the MIT License - see the LICENSE file for details."
+  },
+  {
+    "objectID": "projects/personal-website.html#features",
+    "href": "projects/personal-website.html#features",
+    "title": "Personal Website",
+    "section": "",
+    "text": "Responsive Design: Mobile-friendly layout that works on all devices\nBlog System: Organized content with categories and tags\nProject Showcase: Detailed documentation of technical projects\nCustom Styling: Unique visual identity through custom CSS\nCode Integration: Support for R and Python code execution\nSearch Engine Optimization: Built-in SEO features"
+  },
+  {
+    "objectID": "projects/personal-website.html#technical-details",
+    "href": "projects/personal-website.html#technical-details",
+    "title": "Personal Website",
+    "section": "",
+    "text": "The website is built using a static site generator approach with Quarto:\n\nContent Layer\n\nMarkdown-based content files (.qmd)\nYAML front matter for metadata\nModular structure for easy maintenance\n\nPresentation Layer\n\nCustom CSS for styling\nResponsive navigation\nMobile-first design approach\n\nBuild Process\n\nQuarto compilation to static HTML\nAsset optimization\nSEO optimization\n\n\n\n\n\n\nQuarto: Main static site generator\nHTML/CSS: Frontend structure and styling\nGit: Version control and deployment\nGitHub Pages: Hosting and deployment"
+  },
+  {
+    "objectID": "projects/personal-website.html#implementation",
+    "href": "projects/personal-website.html#implementation",
+    "title": "Personal Website",
+    "section": "",
+    "text": "# _quarto.yml configuration\nproject:\n  type: website\n  output-dir: _site\n\nwebsite:\n  title: \"Zach's Personal Website\"\n  navbar:\n    left:\n      - text: \"Home\"\n        file: index.qmd\n      - text: \"About\"\n        file: about.qmd\n\n\n\n\nChallenge: Organizing content structure\n\nSolution: Created clear directory structure with templates\n\nChallenge: Maintaining consistent styling\n\nSolution: Centralized CSS with reusable components\n\nChallenge: Content management\n\nSolution: Template-based approach for blog posts and projects"
+  },
+  {
+    "objectID": "projects/personal-website.html#results",
+    "href": "projects/personal-website.html#results",
+    "title": "Personal Website",
+    "section": "",
+    "text": "Page load time: &lt; 2 seconds\nMobile responsiveness: 100%\nSEO score: 95/100"
+  },
+  {
+    "objectID": "projects/personal-website.html#future-improvements",
+    "href": "projects/personal-website.html#future-improvements",
+    "title": "Personal Website",
+    "section": "",
+    "text": "Add dark mode support\nImplement search functionality\nAdd newsletter subscription\nIntegrate analytics\nAdd comments system\nCreate RSS feed"
+  },
+  {
+    "objectID": "projects/personal-website.html#getting-started",
+    "href": "projects/personal-website.html#getting-started",
+    "title": "Personal Website",
+    "section": "",
+    "text": "Quarto installed\nGit\nGitHub account\n\n\n\n\n# Clone the repository\ngit clone https://github.com/yourusername/ztr_website.git\ncd ztr_website\n\n# Install dependencies (if any)\n# Currently using only built-in Quarto features\n\n\n\n\nLocal Development\nquarto preview\nBuilding for Production\nquarto render\nDeploying\ngit add .\ngit commit -m \"Update website\"\ngit push origin main"
+  },
+  {
+    "objectID": "projects/personal-website.html#contributing",
+    "href": "projects/personal-website.html#contributing",
+    "title": "Personal Website",
+    "section": "",
+    "text": "While this is a personal website, suggestions and feedback are welcome through GitHub issues."
+  },
+  {
+    "objectID": "projects/personal-website.html#license",
+    "href": "projects/personal-website.html#license",
+    "title": "Personal Website",
+    "section": "",
+    "text": "This project is licensed under the MIT License - see the LICENSE file for details."
+  }
+]

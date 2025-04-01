@@ -1,0 +1,91 @@
+---
+title: "Building My Personal Website with Quarto"
+author: "Zach"
+date: 2024-04-01
+categories: ["Technical Tutorials", "Project Updates"]
+tags: ["Quarto", "Web Development", "Personal Branding"]
+image: images/website-preview.jpg
+description: "A journey into creating a professional personal website using Quarto, from initial setup to deployment"
+---
+
+# Introduction
+
+In today's digital age, having a personal website is more important than ever. It serves as your digital portfolio, a platform to share your thoughts, and a way to establish your professional brand. In this post, I'll share my experience building my personal website using Quarto, a powerful scientific and technical publishing system.
+
+## Background
+
+I chose Quarto for my website because it offers several advantages:
+- Markdown-based content creation
+- Built-in support for code execution and visualization
+- Excellent documentation and community support
+- Seamless integration with R and Python
+- Beautiful default themes and easy customization
+
+## Main Content
+
+### Setting Up the Project Structure
+
+The first step was creating a well-organized project structure:
+
+```bash
+ztr_website/
+├── _quarto.yml          # Website configuration
+├── index.qmd           # Homepage
+├── about.qmd           # About page
+├── projects/           # Project documentation
+├── blog/              # Blog posts
+│   ├── index.qmd      # Blog homepage
+│   └── posts/         # Individual blog posts
+└── styles.css         # Custom styling
+```
+
+### Key Features Implemented
+
+1. **Responsive Navigation**
+   - Clean, mobile-friendly navigation bar
+   - Easy access to all major sections
+   - Smooth scrolling between pages
+
+2. **Blog System**
+   - Organized by categories and tags
+   - Support for code snippets and images
+   - Easy-to-use templates for new posts
+
+3. **Project Showcase**
+   - Detailed project documentation
+   - Technical specifications
+   - Visual demonstrations
+
+### Custom Styling
+
+I added custom CSS to make the website uniquely mine:
+
+```css
+/* Main content area */
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #2c3e50;
+    margin-top: 1.5em;
+}
+```
+
+## Conclusion
+
+Building a personal website with Quarto has been an enlightening experience. The combination of powerful features and ease of use makes it an excellent choice for technical professionals. In future posts, I'll share more about:
+
+- Adding interactive elements
+- Optimizing for search engines
+- Setting up continuous deployment
+- Adding analytics and monitoring
+
+## References
+
+- [Quarto Documentation](https://quarto.org/docs/guide/)
+- [Quarto Websites Guide](https://quarto.org/docs/websites/)
+- [GitHub Pages Documentation](https://docs.github.com/en/pages) 

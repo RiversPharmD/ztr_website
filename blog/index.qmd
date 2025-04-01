@@ -1,0 +1,25 @@
+---
+title: "Blog"
+---
+
+# Blog Posts
+
+Welcome to my blog! Here you'll find my thoughts, tutorials, and insights about various topics.
+
+## Latest Posts
+
+### [Post Title 1](posts/post1.qmd)
+*Posted on [Date]*
+
+Brief description of your first blog post.
+
+### [Post Title 2](posts/post2.qmd)
+*Posted on [Date]*
+
+Brief description of your second blog post.
+
+## Categories
+
+- [Technical Tutorials](categories/tutorials.qmd)
+- [Thoughts & Insights](categories/insights.qmd)
+- [Project Updates](categories/projects.qmd) 
