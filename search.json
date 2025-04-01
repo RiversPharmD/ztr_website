@@ -1,0 +1,275 @@
+[
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Description of your first project.\n\nTechnologies used: [List technologies]\nGitHub: [Link to repository]\nLive demo: [Link to demo]\n\n\n\n\nDescription of your second project.\n\nTechnologies used: [List technologies]\nGitHub: [Link to repository]\nLive demo: [Link to demo]\n\n\n\n\n\n\n\nBrief description of another project.\n\n\n\nBrief description of another project."
+  },
+  {
+    "objectID": "projects.html#featured-projects",
+    "href": "projects.html#featured-projects",
+    "title": "Projects",
+    "section": "",
+    "text": "Description of your first project.\n\nTechnologies used: [List technologies]\nGitHub: [Link to repository]\nLive demo: [Link to demo]\n\n\n\n\nDescription of your second project.\n\nTechnologies used: [List technologies]\nGitHub: [Link to repository]\nLive demo: [Link to demo]"
+  },
+  {
+    "objectID": "projects.html#other-projects",
+    "href": "projects.html#other-projects",
+    "title": "Projects",
+    "section": "",
+    "text": "Brief description of another project.\n\n\n\nBrief description of another project."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "This is my personal website where I share my projects, thoughts, and professional journey.\n\n\n\n\n\n\n\n\nI have published extensively in the fields of pharmacogenomics, health economics, and cancer research. My work focuses on:\n\nPharmacogenomics implementation in clinical practice\nCost-effectiveness analysis of genetic testing\nReal-world evidence in cancer treatment\nHealth disparities in cancer care\nEconomic evaluation of precision medicine\n\nFor a complete list of my publications, please visit the Published Works section."
+  },
+  {
+    "objectID": "index.html#published-works",
+    "href": "index.html#published-works",
+    "title": "Welcome",
+    "section": "",
+    "text": "I have published extensively in the fields of pharmacogenomics, health economics, and cancer research. My work focuses on:\n\nPharmacogenomics implementation in clinical practice\nCost-effectiveness analysis of genetic testing\nReal-world evidence in cancer treatment\nHealth disparities in cancer care\nEconomic evaluation of precision medicine\n\nFor a complete list of my publications, please visit the Published Works section."
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Welcome to my blog! Here you’ll find my thoughts, tutorials, and insights about various topics.\n\n\n\n\nPosted on [Date]\nBrief description of your first blog post.\n\n\n\nPosted on [Date]\nBrief description of your second blog post.\n\n\n\n\n\nTechnical Tutorials\nThoughts & Insights\nProject Updates"
+  },
+  {
+    "objectID": "blog/index.html#latest-posts",
+    "href": "blog/index.html#latest-posts",
+    "title": "Blog",
+    "section": "",
+    "text": "Posted on [Date]\nBrief description of your first blog post.\n\n\n\nPosted on [Date]\nBrief description of your second blog post."
+  },
+  {
+    "objectID": "blog/index.html#categories",
+    "href": "blog/index.html#categories",
+    "title": "Blog",
+    "section": "",
+    "text": "Technical Tutorials\nThoughts & Insights\nProject Updates"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "[Your professional background goes here]\n\n\n\n\nSkill 1\nSkill 2\nSkill 3\n\n\n\n\n\nDegree 1\nDegree 2\n\n\n\n\nFeel free to reach out to me at [your email]\n\n\n\n\nLinkedIn\nGitHub\nTwitter"
+  },
+  {
+    "objectID": "about.html#professional-background",
+    "href": "about.html#professional-background",
+    "title": "About Me",
+    "section": "",
+    "text": "[Your professional background goes here]"
+  },
+  {
+    "objectID": "about.html#skills-expertise",
+    "href": "about.html#skills-expertise",
+    "title": "About Me",
+    "section": "",
+    "text": "Skill 1\nSkill 2\nSkill 3"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About Me",
+    "section": "",
+    "text": "Degree 1\nDegree 2"
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About Me",
+    "section": "",
+    "text": "Feel free to reach out to me at [your email]"
+  },
+  {
+    "objectID": "about.html#social-media",
+    "href": "about.html#social-media",
+    "title": "About Me",
+    "section": "",
+    "text": "LinkedIn\nGitHub\nTwitter"
+  },
+  {
+    "objectID": "bibliography/published_works.html",
+    "href": "bibliography/published_works.html",
+    "title": "Published Works",
+    "section": "",
+    "text": "This document collects and organizes my published work by topic and skillset. Most code is found in private github repositories, but where open code is available, it can be found here with specific callouts found throughout this document."
+  },
+  {
+    "objectID": "bibliography/published_works.html#tempus-ai",
+    "href": "bibliography/published_works.html#tempus-ai",
+    "title": "Published Works",
+    "section": "Tempus AI",
+    "text": "Tempus AI\n\nAggarwal et al. (2023)\n\nThis manuscript used real world data to understand how a biomarker based test predicted cancer outcomes across a diverse patient population. I was responsible for clinical chart review and data analysis.\n\nZachary Rivers, Huey, et al. (2023)\n\nThis project attempted to identify the origin of cancers of unknown primary using biomarkers. I developed an analytic data pipeline to combine claims, EHR, and curated patient data with genetic test results to understand how clinicians used the test results to drive patient care.\n\nMaddalena et al. (2024)\n\nThis project used claims data linked to genetic test results to replicate clinical trial findings in real world data. I supported this project through data pipeline design and served as an analytic advisor and claims subject matter expert.\n\nGentzler et al. (2024)\n\nThis manuscript links clinical and genetic real-world data to imaging response data. I supported this analysis as an oncology pharmacotherapy subject-matter expert.\n\nZachary Rivers, Nimeiri, et al. (2024)\n\nThis poster explored how real-world outcomes were impacted by patient-reported race and ethnicity. This allowed me to use propensity score matching and account for time bias in the survival analyses. I designed the project, and conducted the analysis in R."
+  },
+  {
+    "objectID": "bibliography/published_works.html#fred-hutchinson-cancer-research-center",
+    "href": "bibliography/published_works.html#fred-hutchinson-cancer-research-center",
+    "title": "Published Works",
+    "section": "Fred Hutchinson Cancer Research Center",
+    "text": "Fred Hutchinson Cancer Research Center\n\nKhor et al. (2023)\n\nThis poster used a novel data linkage between a cancer registry, claims data, and bankruptcy data to explore how patients diagnosed with screenable cancers were impacted by their pre-diagnosis financial toxicity. I was responsible for early study design and theoretical framework."
+  },
+  {
+    "objectID": "bibliography/published_works.html#university-of-minnesota",
+    "href": "bibliography/published_works.html#university-of-minnesota",
+    "title": "Published Works",
+    "section": "University of Minnesota",
+    "text": "University of Minnesota\n\nWillis et al. (2022)\n\nClinical research study using EHR abstracted data to understand the impact of a cancer biomarker on real-world overall survival. I was responsible for data analysis and result reporting, including design and production of waterfall plots in R.\n\nZach Rivers et al. (2022)\n\nPart of my dissertation, this manuscript used real-world data to identify treatment patterns and parameters for an economic model.\n\nNguyen et al. (2020)\n\nClinical research study using EHR data linked to patient samples. Served as an analytic mentor and advisor to early PhD students leading research.\n\nKessel et al. (2020)\n\nExploratory study examining the impact and role of biomarkers in kidney cancer. I was responsible for data analysis and review.\n\nRamsey et al. (2020)\n\nThis manuscript was a multi-stakeholder project where I served as one of the points of contact for an individual research institution. This project gave me the opportunity to work as a consultant as part of a larger data project."
+  },
+  {
+    "objectID": "bibliography/published_works.html#tempus-ai-1",
+    "href": "bibliography/published_works.html#tempus-ai-1",
+    "title": "Published Works",
+    "section": "Tempus AI",
+    "text": "Tempus AI\n\nZachary Rivers, Aggarwal, et al. (2024)\n\nThis poster, with a manuscript forthcoming, uses real-world claims, EHR, and genetic testing information (from (Gentzler et al. 2024)) to understand the clinical and economic impact of biomarker testing in a pan-cancer population treated with immunotherapy. I built the data pipeline, wrote the simulation model in R, and was responsible for this project to our internal and external stakeholders."
+  },
+  {
+    "objectID": "bibliography/published_works.html#fred-hutchinson-cancer-research-center-1",
+    "href": "bibliography/published_works.html#fred-hutchinson-cancer-research-center-1",
+    "title": "Published Works",
+    "section": "Fred Hutchinson Cancer Research Center",
+    "text": "Fred Hutchinson Cancer Research Center\n\nZachary Rivers, Luczak, et al. (2022)\n\nThis abstract looked at how economic analyses of polygenic risk scores included, or didn’t include, population level data. This was intended to support a K Award application, but I was recruited away to industry.\n\nZachary Rivers, Roth, et al. (2023)\n\nThis manuscript used an Excel-based model to provide stakeholders with a tool to understand the economic impact of different cancer survivorship interventions. I updated and refined the model, and worked with focus groups to understand use cases."
+  },
+  {
+    "objectID": "bibliography/published_works.html#university-of-minnesota-1",
+    "href": "bibliography/published_works.html#university-of-minnesota-1",
+    "title": "Published Works",
+    "section": "University of Minnesota",
+    "text": "University of Minnesota\n\nDissertation work (Zachary Rivers 2021)\n\nZachary Rivers, Stenehjem, Jacobson, et al. (2020a) and Zachary Rivers, Stenehjem, Lou, et al. (2020)\n\nThese abstracts present the early and middle stages of an economic model of genetic testing in a US population over a lifetime time horizon. Built in TreeAge, and subsequently ported to R.\n\nZachary Rivers, Stenehjem, Jacobson, et al. (2020b)\n\nThis abstract is a budget impact model of implementing the above genetic testing from the perspective of a US Cancer Center.\n\nZachary Rivers, Stenehjem, and Kuntz (2021)\n\nThis abstract conducts a value of information analysis (VOI) for the economic model of genetic testing in colorectal cancer.\n\n\nOthers\n\nBiltaji et al. (2021)\n\nThis manuscript looked at the potential for biomarkers to inform colorectal cancer prevention. A complex economic model was constructed in TreeAge, and I was responsible for updates, data changes, and final model outputs.\n\nZachary Rivers, Stenehjem, et al. (2018)\n\nThis model used real-world genetic variant data and treatment patterns to explore how biomarker testing could prevent nausea and vomiting in cancer.\n\nKumar et al. (2021)\n\nThis model explored pharmacogenomic testing in pediatric patients. I supported model design and programming."
+  },
+  {
+    "objectID": "bibliography/published_works.html#tempus-ai-2",
+    "href": "bibliography/published_works.html#tempus-ai-2",
+    "title": "Published Works",
+    "section": "Tempus AI",
+    "text": "Tempus AI\n\nZachary Rivers, Hyde, et al. (2023)\n\nI led a group of clinicians and researchers at Tempus in identifying how a new clinical trial program could benefit pediatric cancer patients. I developed the survey instrument and was responsible for data analysis and publication."
+  },
+  {
+    "objectID": "bibliography/published_works.html#fred-hutchinson-cancer-research-center-2",
+    "href": "bibliography/published_works.html#fred-hutchinson-cancer-research-center-2",
+    "title": "Published Works",
+    "section": "Fred Hutchinson Cancer Research Center",
+    "text": "Fred Hutchinson Cancer Research Center\n\nZachary Rivers, Shankaran, et al. (2022a) and Zachary Rivers, Shankaran, et al. (2022b)\n\nThis project used patient-reported survey data to understand how patients and their caregivers experienced and perceived financial toxicity. I was responsible for data analysis and result preparation. GitHub Repo"
+  },
+  {
+    "objectID": "bibliography/published_works.html#university-of-minnesota-2",
+    "href": "bibliography/published_works.html#university-of-minnesota-2",
+    "title": "Published Works",
+    "section": "University of Minnesota",
+    "text": "University of Minnesota\n\nLounsbery et al. (2019)\n\nManuscript exploring how pharmacy students rated their confidence and education during their clinical rotations. Responsible for analytics and result presentation."
+  },
+  {
+    "objectID": "bibliography/published_works.html#university-of-minnesota-3",
+    "href": "bibliography/published_works.html#university-of-minnesota-3",
+    "title": "Published Works",
+    "section": "University of Minnesota",
+    "text": "University of Minnesota\n\nColes et al. (2015)\n\nEarly publication from my PharmD, collaboration between benchtop scientists and clinicians to understand pharmacokinetics of a novel antiepileptic formulation.\n\nZachary Rivers, Oostra, et al. (2018)\n\nCase report and literature review based on clinical rotation experience. A complex patient case led me to explore a potential underreported adverse event signal in a class of anticancer agents.\n\nFikru et al. (2016)\n\nThis abstract compared and contrasted pharmacogenomics coverage by insurance companies. This project showed me that there was a gap in the economic field around genetic testing and biomarkers\n\nZachary Rivers, Xing, and Narayanapillai (2016)\n\nPharmD Capstone paper. Reviewed mechanisms of a plant-based approach to the management of anxiety."
+  },
+  {
+    "objectID": "blog/posts/building-my-personal-website.html",
+    "href": "blog/posts/building-my-personal-website.html",
+    "title": "Building My Personal Website with Quarto",
+    "section": "",
+    "text": "In today’s digital age, having a personal website is more important than ever. It serves as your digital portfolio, a platform to share your thoughts, and a way to establish your professional brand. In this post, I’ll share my experience building my personal website using Quarto, a powerful scientific and technical publishing system.\n\n\nI chose Quarto for my website because it offers several advantages: - Markdown-based content creation - Built-in support for code execution and visualization - Excellent documentation and community support - Seamless integration with R and Python - Beautiful default themes and easy customization\n\n\n\n\n\nThe first step was creating a well-organized project structure:\nztr_website/\n├── _quarto.yml          # Website configuration\n├── index.qmd           # Homepage\n├── about.qmd           # About page\n├── projects/           # Project documentation\n├── blog/              # Blog posts\n│   ├── index.qmd      # Blog homepage\n│   └── posts/         # Individual blog posts\n└── styles.css         # Custom styling\n\n\n\n\nResponsive Navigation\n\nClean, mobile-friendly navigation bar\nEasy access to all major sections\nSmooth scrolling between pages\n\nBlog System\n\nOrganized by categories and tags\nSupport for code snippets and images\nEasy-to-use templates for new posts\n\nProject Showcase\n\nDetailed project documentation\nTechnical specifications\nVisual demonstrations\n\n\n\n\n\nI added custom CSS to make the website uniquely mine:\n/* Main content area */\n.main {\n    max-width: 800px;\n    margin: 0 auto;\n    padding: 20px;\n}\n\n/* Headings */\nh1, h2, h3 {\n    color: #2c3e50;\n    margin-top: 1.5em;\n}\n\n\n\n\nBuilding a personal website with Quarto has been an enlightening experience. The combination of powerful features and ease of use makes it an excellent choice for technical professionals. In future posts, I’ll share more about:\n\nAdding interactive elements\nOptimizing for search engines\nSetting up continuous deployment\nAdding analytics and monitoring\n\n\n\n\n\nQuarto Documentation\nQuarto Websites Guide\nGitHub Pages Documentation"
+  },
+  {
+    "objectID": "blog/posts/building-my-personal-website.html#background",
+    "href": "blog/posts/building-my-personal-website.html#background",
+    "title": "Building My Personal Website with Quarto",
+    "section": "",
+    "text": "I chose Quarto for my website because it offers several advantages: - Markdown-based content creation - Built-in support for code execution and visualization - Excellent documentation and community support - Seamless integration with R and Python - Beautiful default themes and easy customization"
+  },
+  {
+    "objectID": "blog/posts/building-my-personal-website.html#main-content",
+    "href": "blog/posts/building-my-personal-website.html#main-content",
+    "title": "Building My Personal Website with Quarto",
+    "section": "",
+    "text": "The first step was creating a well-organized project structure:\nztr_website/\n├── _quarto.yml          # Website configuration\n├── index.qmd           # Homepage\n├── about.qmd           # About page\n├── projects/           # Project documentation\n├── blog/              # Blog posts\n│   ├── index.qmd      # Blog homepage\n│   └── posts/         # Individual blog posts\n└── styles.css         # Custom styling\n\n\n\n\nResponsive Navigation\n\nClean, mobile-friendly navigation bar\nEasy access to all major sections\nSmooth scrolling between pages\n\nBlog System\n\nOrganized by categories and tags\nSupport for code snippets and images\nEasy-to-use templates for new posts\n\nProject Showcase\n\nDetailed project documentation\nTechnical specifications\nVisual demonstrations\n\n\n\n\n\nI added custom CSS to make the website uniquely mine:\n/* Main content area */\n.main {\n    max-width: 800px;\n    margin: 0 auto;\n    padding: 20px;\n}\n\n/* Headings */\nh1, h2, h3 {\n    color: #2c3e50;\n    margin-top: 1.5em;\n}"
+  },
+  {
+    "objectID": "blog/posts/building-my-personal-website.html#conclusion",
+    "href": "blog/posts/building-my-personal-website.html#conclusion",
+    "title": "Building My Personal Website with Quarto",
+    "section": "",
+    "text": "Building a personal website with Quarto has been an enlightening experience. The combination of powerful features and ease of use makes it an excellent choice for technical professionals. In future posts, I’ll share more about:\n\nAdding interactive elements\nOptimizing for search engines\nSetting up continuous deployment\nAdding analytics and monitoring"
+  },
+  {
+    "objectID": "blog/posts/building-my-personal-website.html#references",
+    "href": "blog/posts/building-my-personal-website.html#references",
+    "title": "Building My Personal Website with Quarto",
+    "section": "",
+    "text": "Quarto Documentation\nQuarto Websites Guide\nGitHub Pages Documentation"
+  },
+  {
+    "objectID": "projects/personal-website.html",
+    "href": "projects/personal-website.html",
+    "title": "Personal Website",
+    "section": "",
+    "text": "A professional personal website built with Quarto, designed to showcase my projects, share technical insights through blog posts, and establish my professional brand. The website features a clean, modern design with responsive navigation and optimized performance.\n\n\n\nResponsive Design: Mobile-friendly layout that works on all devices\nBlog System: Organized content with categories and tags\nProject Showcase: Detailed documentation of technical projects\nCustom Styling: Unique visual identity through custom CSS\nCode Integration: Support for R and Python code execution\nSearch Engine Optimization: Built-in SEO features\n\n\n\n\n\n\nThe website is built using a static site generator approach with Quarto:\n\nContent Layer\n\nMarkdown-based content files (.qmd)\nYAML front matter for metadata\nModular structure for easy maintenance\n\nPresentation Layer\n\nCustom CSS for styling\nResponsive navigation\nMobile-first design approach\n\nBuild Process\n\nQuarto compilation to static HTML\nAsset optimization\nSEO optimization\n\n\n\n\n\n\nQuarto: Main static site generator\nHTML/CSS: Frontend structure and styling\nGit: Version control and deployment\nGitHub Pages: Hosting and deployment\n\n\n\n\n\n\n\n# _quarto.yml configuration\nproject:\n  type: website\n  output-dir: _site\n\nwebsite:\n  title: \"Zach's Personal Website\"\n  navbar:\n    left:\n      - text: \"Home\"\n        file: index.qmd\n      - text: \"About\"\n        file: about.qmd\n\n\n\n\nChallenge: Organizing content structure\n\nSolution: Created clear directory structure with templates\n\nChallenge: Maintaining consistent styling\n\nSolution: Centralized CSS with reusable components\n\nChallenge: Content management\n\nSolution: Template-based approach for blog posts and projects\n\n\n\n\n\n\n\n\n\nPage load time: &lt; 2 seconds\nMobile responsiveness: 100%\nSEO score: 95/100\n\n\n\n\n\n\nAdd dark mode support\nImplement search functionality\nAdd newsletter subscription\nIntegrate analytics\nAdd comments system\nCreate RSS feed\n\n\n\n\n\n\n\nQuarto installed\nGit\nGitHub account\n\n\n\n\n# Clone the repository\ngit clone https://github.com/yourusername/ztr_website.git\ncd ztr_website\n\n# Install dependencies (if any)\n# Currently using only built-in Quarto features\n\n\n\n\nLocal Development\nquarto preview\nBuilding for Production\nquarto render\nDeploying\ngit add .\ngit commit -m \"Update website\"\ngit push origin main\n\n\n\n\n\nWhile this is a personal website, suggestions and feedback are welcome through GitHub issues.\n\n\n\nThis project is licensed under the MIT License - see the LICENSE file for details."
+  },
+  {
+    "objectID": "projects/personal-website.html#features",
+    "href": "projects/personal-website.html#features",
+    "title": "Personal Website",
+    "section": "",
+    "text": "Responsive Design: Mobile-friendly layout that works on all devices\nBlog System: Organized content with categories and tags\nProject Showcase: Detailed documentation of technical projects\nCustom Styling: Unique visual identity through custom CSS\nCode Integration: Support for R and Python code execution\nSearch Engine Optimization: Built-in SEO features"
+  },
+  {
+    "objectID": "projects/personal-website.html#technical-details",
+    "href": "projects/personal-website.html#technical-details",
+    "title": "Personal Website",
+    "section": "",
+    "text": "The website is built using a static site generator approach with Quarto:\n\nContent Layer\n\nMarkdown-based content files (.qmd)\nYAML front matter for metadata\nModular structure for easy maintenance\n\nPresentation Layer\n\nCustom CSS for styling\nResponsive navigation\nMobile-first design approach\n\nBuild Process\n\nQuarto compilation to static HTML\nAsset optimization\nSEO optimization\n\n\n\n\n\n\nQuarto: Main static site generator\nHTML/CSS: Frontend structure and styling\nGit: Version control and deployment\nGitHub Pages: Hosting and deployment"
+  },
+  {
+    "objectID": "projects/personal-website.html#implementation",
+    "href": "projects/personal-website.html#implementation",
+    "title": "Personal Website",
+    "section": "",
+    "text": "# _quarto.yml configuration\nproject:\n  type: website\n  output-dir: _site\n\nwebsite:\n  title: \"Zach's Personal Website\"\n  navbar:\n    left:\n      - text: \"Home\"\n        file: index.qmd\n      - text: \"About\"\n        file: about.qmd\n\n\n\n\nChallenge: Organizing content structure\n\nSolution: Created clear directory structure with templates\n\nChallenge: Maintaining consistent styling\n\nSolution: Centralized CSS with reusable components\n\nChallenge: Content management\n\nSolution: Template-based approach for blog posts and projects"
+  },
+  {
+    "objectID": "projects/personal-website.html#results",
+    "href": "projects/personal-website.html#results",
+    "title": "Personal Website",
+    "section": "",
+    "text": "Page load time: &lt; 2 seconds\nMobile responsiveness: 100%\nSEO score: 95/100"
+  },
+  {
+    "objectID": "projects/personal-website.html#future-improvements",
+    "href": "projects/personal-website.html#future-improvements",
+    "title": "Personal Website",
+    "section": "",
+    "text": "Add dark mode support\nImplement search functionality\nAdd newsletter subscription\nIntegrate analytics\nAdd comments system\nCreate RSS feed"
+  },
+  {
+    "objectID": "projects/personal-website.html#getting-started",
+    "href": "projects/personal-website.html#getting-started",
+    "title": "Personal Website",
+    "section": "",
+    "text": "Quarto installed\nGit\nGitHub account\n\n\n\n\n# Clone the repository\ngit clone https://github.com/yourusername/ztr_website.git\ncd ztr_website\n\n# Install dependencies (if any)\n# Currently using only built-in Quarto features\n\n\n\n\nLocal Development\nquarto preview\nBuilding for Production\nquarto render\nDeploying\ngit add .\ngit commit -m \"Update website\"\ngit push origin main"
+  },
+  {
+    "objectID": "projects/personal-website.html#contributing",
+    "href": "projects/personal-website.html#contributing",
+    "title": "Personal Website",
+    "section": "",
+    "text": "While this is a personal website, suggestions and feedback are welcome through GitHub issues."
+  },
+  {
+    "objectID": "projects/personal-website.html#license",
+    "href": "projects/personal-website.html#license",
+    "title": "Personal Website",
+    "section": "",
+    "text": "This project is licensed under the MIT License - see the LICENSE file for details."
+  }
+]
