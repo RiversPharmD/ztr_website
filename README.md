@@ -53,6 +53,103 @@ This repository contains the source code for my personal academic website, built
    quarto render
    ```
 
+## Development Workflow
+
+This repository follows a structured branching strategy to maintain code quality and enable parallel development:
+
+```
+main (production)
+├── projects (feature branch)
+│   ├── projects/add-project-1
+│   ├── projects/add-project-2
+│   └── projects/update-project-layout
+│
+├── blog (feature branch)
+│   ├── blog/add-first-post
+│   ├── blog/add-categories
+│   └── blog/add-comments
+│
+└── bibliography (feature branch)
+    ├── bibliography/add-citations
+    └── bibliography/update-format
+```
+
+### Branch Types
+
+1. **Main Branch (`main`)**
+   - Production-ready code
+   - Protected branch
+   - Requires pull request reviews
+   - Must be up to date before merging
+   - No force pushes allowed
+
+2. **Feature Branches**
+   - Major feature development (e.g., `projects`, `blog`)
+   - Protected branches
+   - Requires pull request reviews
+   - Must be up to date before merging
+   - No force pushes allowed
+
+3. **Subfeature Branches**
+   - Individual feature development (e.g., `projects/add-project-1`)
+   - Protected branches
+   - Requires pull request reviews
+   - Must pass status checks
+   - No force pushes allowed
+
+### Workflow Steps
+
+1. Create feature branch from main:
+   ```bash
+   git checkout main
+   git checkout -b projects
+   ```
+
+2. Create subfeature branch:
+   ```bash
+   git checkout -b projects/add-project-1
+   ```
+
+3. Work on subfeature, commit changes:
+   ```bash
+   git add .
+   git commit -m "feat(projects): add project 1"
+   ```
+
+4. Merge subfeature into feature branch:
+   ```bash
+   git checkout projects
+   git merge projects/add-project-1
+   ```
+
+5. When feature is complete, merge into main:
+   ```bash
+   git checkout main
+   git merge projects
+   ```
+
+### Branch Protection Rules
+
+The repository uses GitHub's branch protection rules to ensure code quality:
+
+- **Main Branch (`main`)**
+  - Requires pull request reviews
+  - Must pass status checks
+  - Must be up to date before merging
+  - No force pushes allowed
+  - Includes administrators
+
+- **Feature Branches**
+  - Requires pull request reviews
+  - Must pass status checks
+  - Must be up to date before merging
+  - No force pushes allowed
+
+- **Subfeature Branches**
+  - Requires pull request reviews
+  - Must pass status checks
+  - No force pushes allowed
+
 ## Deployment
 
 This website is deployed using GitHub Pages with a custom GitHub Actions workflow. The deployment process:
