@@ -8,27 +8,11 @@ This is my personal website where I share my projects, thoughts, and professiona
 
 ## Recent Posts
 
-```{r}
-#| echo: false
-#| eval: false
-#| warning: false
-#| message: false
-
-# This is a placeholder for dynamic blog post listing
-# You can implement this later using R or other methods
-```
+Coming soon! Check back for updates on my latest research and insights.
 
 ## Featured Projects
 
-```{r}
-#| echo: false
-#| eval: false
-#| warning: false
-#| message: false
-
-# This is a placeholder for dynamic project listing
-# You can implement this later using R or other methods
-```
+Coming soon! I'll be sharing details about my research projects and their outcomes.
 
 ## Published Works
 
