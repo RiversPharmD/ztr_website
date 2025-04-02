@@ -18,4 +18,5 @@ jobs:
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
-          target: gh-pages 
+          target: gh-pages
+          execute: false 
