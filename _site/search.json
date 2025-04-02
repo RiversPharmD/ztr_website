@@ -28,6 +28,13 @@
     "text": "This is my personal website where I share my projects, thoughts, and professional journey.\n\n\n\n\n\n\n\n\nI have published extensively in the fields of pharmacogenomics, health economics, and cancer research. My work focuses on:\n\nPharmacogenomics implementation in clinical practice\nCost-effectiveness analysis of genetic testing\nReal-world evidence in cancer treatment\nHealth disparities in cancer care\nEconomic evaluation of precision medicine\n\nFor a complete list of my publications, please visit the Published Works section."
   },
   {
+    "objectID": "index.html#published-works",
+    "href": "index.html#published-works",
+    "title": "Welcome",
+    "section": "",
+    "text": "I have published extensively in the fields of pharmacogenomics, health economics, and cancer research. My work focuses on:\n\nPharmacogenomics implementation in clinical practice\nCost-effectiveness analysis of genetic testing\nReal-world evidence in cancer treatment\nHealth disparities in cancer care\nEconomic evaluation of precision medicine\n\nFor a complete list of my publications, please visit the Published Works section."
+  },
+  {
     "objectID": "blog/index.html",
     "href": "blog/index.html",
     "title": "Blog",
@@ -89,6 +96,83 @@
     "title": "About Me",
     "section": "",
     "text": "LinkedIn\nGitHub\nTwitter"
+  },
+  {
+    "objectID": "bibliography/published_works.html",
+    "href": "bibliography/published_works.html",
+    "title": "Published Works",
+    "section": "",
+    "text": "This document collects and organizes my published work by topic and skillset. Most code is found in private github repositories, but where open code is available, it can be found here with specific callouts found throughout this document."
+  },
+  {
+    "objectID": "bibliography/published_works.html#tempus-ai",
+    "href": "bibliography/published_works.html#tempus-ai",
+    "title": "Published Works",
+    "section": "Tempus AI",
+    "text": "Tempus AI\n\nAggarwal et al. (2023)\n\nThis manuscript used real world data to understand how a biomarker based test predicted cancer outcomes across a diverse patient population. I was responsible for clinical chart review and data analysis.\n\nZachary Rivers, Huey, et al. (2023)\n\nThis project attempted to identify the origin of cancers of unknown primary using biomarkers. I developed an analytic data pipeline to combine claims, EHR, and curated patient data with genetic test results to understand how clinicians used the test results to drive patient care.\n\nMaddalena et al. (2024)\n\nThis project used claims data linked to genetic test results to replicate clinical trial findings in real world data. I supported this project through data pipeline design and served as an analytic advisor and claims subject matter expert.\n\nGentzler et al. (2024)\n\nThis manuscript links clinical and genetic real-world data to imaging response data. I supported this analysis as an oncology pharmacotherapy subject-matter expert.\n\nZachary Rivers, Nimeiri, et al. (2024)\n\nThis poster explored how real-world outcomes were impacted by patient-reported race and ethnicity. This allowed me to use propensity score matching and account for time bias in the survival analyses. I designed the project, and conducted the analysis in R."
+  },
+  {
+    "objectID": "bibliography/published_works.html#fred-hutchinson-cancer-research-center",
+    "href": "bibliography/published_works.html#fred-hutchinson-cancer-research-center",
+    "title": "Published Works",
+    "section": "Fred Hutchinson Cancer Research Center",
+    "text": "Fred Hutchinson Cancer Research Center\n\nKhor et al. (2023)\n\nThis poster used a novel data linkage between a cancer registry, claims data, and bankruptcy data to explore how patients diagnosed with screenable cancers were impacted by their pre-diagnosis financial toxicity. I was responsible for early study design and theoretical framework."
+  },
+  {
+    "objectID": "bibliography/published_works.html#university-of-minnesota",
+    "href": "bibliography/published_works.html#university-of-minnesota",
+    "title": "Published Works",
+    "section": "University of Minnesota",
+    "text": "University of Minnesota\n\nWillis et al. (2022)\n\nClinical research study using EHR abstracted data to understand the impact of a cancer biomarker on real-world overall survival. I was responsible for data analysis and result reporting, including design and production of waterfall plots in R.\n\nZach Rivers et al. (2022)\n\nPart of my dissertation, this manuscript used real-world data to identify treatment patterns and parameters for an economic model.\n\nNguyen et al. (2020)\n\nClinical research study using EHR data linked to patient samples. Served as an analytic mentor and advisor to early PhD students leading research.\n\nKessel et al. (2020)\n\nExploratory study examining the impact and role of biomarkers in kidney cancer. I was responsible for data analysis and review.\n\nRamsey et al. (2020)\n\nThis manuscript was a multi-stakeholder project where I served as one of the points of contact for an individual research institution. This project gave me the opportunity to work as a consultant as part of a larger data project."
+  },
+  {
+    "objectID": "bibliography/published_works.html#tempus-ai-1",
+    "href": "bibliography/published_works.html#tempus-ai-1",
+    "title": "Published Works",
+    "section": "Tempus AI",
+    "text": "Tempus AI\n\nZachary Rivers, Aggarwal, et al. (2024)\n\nThis poster, with a manuscript forthcoming, uses real-world claims, EHR, and genetic testing information (from (Gentzler et al. 2024)) to understand the clinical and economic impact of biomarker testing in a pan-cancer population treated with immunotherapy. I built the data pipeline, wrote the simulation model in R, and was responsible for this project to our internal and external stakeholders."
+  },
+  {
+    "objectID": "bibliography/published_works.html#fred-hutchinson-cancer-research-center-1",
+    "href": "bibliography/published_works.html#fred-hutchinson-cancer-research-center-1",
+    "title": "Published Works",
+    "section": "Fred Hutchinson Cancer Research Center",
+    "text": "Fred Hutchinson Cancer Research Center\n\nZachary Rivers, Luczak, et al. (2022)\n\nThis abstract looked at how economic analyses of polygenic risk scores included, or didn’t include, population level data. This was intended to support a K Award application, but I was recruited away to industry.\n\nZachary Rivers, Roth, et al. (2023)\n\nThis manuscript used an Excel-based model to provide stakeholders with a tool to understand the economic impact of different cancer survivorship interventions. I updated and refined the model, and worked with focus groups to understand use cases."
+  },
+  {
+    "objectID": "bibliography/published_works.html#university-of-minnesota-1",
+    "href": "bibliography/published_works.html#university-of-minnesota-1",
+    "title": "Published Works",
+    "section": "University of Minnesota",
+    "text": "University of Minnesota\n\nDissertation work (Zachary Rivers 2021)\n\nZachary Rivers, Stenehjem, Jacobson, et al. (2020a) and Zachary Rivers, Stenehjem, Lou, et al. (2020)\n\nThese abstracts present the early and middle stages of an economic model of genetic testing in a US population over a lifetime time horizon. Built in TreeAge, and subsequently ported to R.\n\nZachary Rivers, Stenehjem, Jacobson, et al. (2020b)\n\nThis abstract is a budget impact model of implementing the above genetic testing from the perspective of a US Cancer Center.\n\nZachary Rivers, Stenehjem, and Kuntz (2021)\n\nThis abstract conducts a value of information analysis (VOI) for the economic model of genetic testing in colorectal cancer.\n\n\nOthers\n\nBiltaji et al. (2021)\n\nThis manuscript looked at the potential for biomarkers to inform colorectal cancer prevention. A complex economic model was constructed in TreeAge, and I was responsible for updates, data changes, and final model outputs.\n\nZachary Rivers, Stenehjem, et al. (2018)\n\nThis model used real-world genetic variant data and treatment patterns to explore how biomarker testing could prevent nausea and vomiting in cancer.\n\nKumar et al. (2021)\n\nThis model explored pharmacogenomic testing in pediatric patients. I supported model design and programming."
+  },
+  {
+    "objectID": "bibliography/published_works.html#tempus-ai-2",
+    "href": "bibliography/published_works.html#tempus-ai-2",
+    "title": "Published Works",
+    "section": "Tempus AI",
+    "text": "Tempus AI\n\nZachary Rivers, Hyde, et al. (2023)\n\nI led a group of clinicians and researchers at Tempus in identifying how a new clinical trial program could benefit pediatric cancer patients. I developed the survey instrument and was responsible for data analysis and publication."
+  },
+  {
+    "objectID": "bibliography/published_works.html#fred-hutchinson-cancer-research-center-2",
+    "href": "bibliography/published_works.html#fred-hutchinson-cancer-research-center-2",
+    "title": "Published Works",
+    "section": "Fred Hutchinson Cancer Research Center",
+    "text": "Fred Hutchinson Cancer Research Center\n\nZachary Rivers, Shankaran, et al. (2022a) and Zachary Rivers, Shankaran, et al. (2022b)\n\nThis project used patient-reported survey data to understand how patients and their caregivers experienced and perceived financial toxicity. I was responsible for data analysis and result preparation. GitHub Repo"
+  },
+  {
+    "objectID": "bibliography/published_works.html#university-of-minnesota-2",
+    "href": "bibliography/published_works.html#university-of-minnesota-2",
+    "title": "Published Works",
+    "section": "University of Minnesota",
+    "text": "University of Minnesota\n\nLounsbery et al. (2019)\n\nManuscript exploring how pharmacy students rated their confidence and education during their clinical rotations. Responsible for analytics and result presentation."
+  },
+  {
+    "objectID": "bibliography/published_works.html#university-of-minnesota-3",
+    "href": "bibliography/published_works.html#university-of-minnesota-3",
+    "title": "Published Works",
+    "section": "University of Minnesota",
+    "text": "University of Minnesota\n\nColes et al. (2015)\n\nEarly publication from my PharmD, collaboration between benchtop scientists and clinicians to understand pharmacokinetics of a novel antiepileptic formulation.\n\nZachary Rivers, Oostra, et al. (2018)\n\nCase report and literature review based on clinical rotation experience. A complex patient case led me to explore a potential underreported adverse event signal in a class of anticancer agents.\n\nFikru et al. (2016)\n\nThis abstract compared and contrasted pharmacogenomics coverage by insurance companies. This project showed me that there was a gap in the economic field around genetic testing and biomarkers\n\nZachary Rivers, Xing, and Narayanapillai (2016)\n\nPharmD Capstone paper. Reviewed mechanisms of a plant-based approach to the management of anxiety."
   },
   {
     "objectID": "blog/posts/building-my-personal-website.html",
@@ -187,89 +271,5 @@
     "title": "Personal Website",
     "section": "",
     "text": "This project is licensed under the MIT License - see the LICENSE file for details."
-  },
-  {
-    "objectID": "bibliography/published_works.html",
-    "href": "bibliography/published_works.html",
-    "title": "Published Works",
-    "section": "",
-    "text": "This document collects and organizes my published work by topic and skillset. Most code is found in private github repositories, but where open code is available, it can be found here with specific callouts found throughout this document."
-  },
-  {
-    "objectID": "bibliography/published_works.html#tempus-ai",
-    "href": "bibliography/published_works.html#tempus-ai",
-    "title": "Published Works",
-    "section": "Tempus AI",
-    "text": "Tempus AI\n\nAggarwal et al. (2023)\n\nThis manuscript used real world data to understand how a biomarker based test predicted cancer outcomes across a diverse patient population. I was responsible for clinical chart review and data analysis.\n\nZachary Rivers, Huey, et al. (2023)\n\nThis project attempted to identify the origin of cancers of unknown primary using biomarkers. I developed an analytic data pipeline to combine claims, EHR, and curated patient data with genetic test results to understand how clinicians used the test results to drive patient care.\n\nMaddalena et al. (2024)\n\nThis project used claims data linked to genetic test results to replicate clinical trial findings in real world data. I supported this project through data pipeline design and served as an analytic advisor and claims subject matter expert.\n\nGentzler et al. (2024)\n\nThis manuscript links clinical and genetic real-world data to imaging response data. I supported this analysis as an oncology pharmacotherapy subject-matter expert.\n\nZachary Rivers, Nimeiri, et al. (2024)\n\nThis poster explored how real-world outcomes were impacted by patient-reported race and ethnicity. This allowed me to use propensity score matching and account for time bias in the survival analyses. I designed the project, and conducted the analysis in R."
-  },
-  {
-    "objectID": "bibliography/published_works.html#fred-hutchinson-cancer-research-center",
-    "href": "bibliography/published_works.html#fred-hutchinson-cancer-research-center",
-    "title": "Published Works",
-    "section": "Fred Hutchinson Cancer Research Center",
-    "text": "Fred Hutchinson Cancer Research Center\n\nKhor et al. (2023)\n\nThis poster used a novel data linkage between a cancer registry, claims data, and bankruptcy data to explore how patients diagnosed with screenable cancers were impacted by their pre-diagnosis financial toxicity. I was responsible for early study design and theoretical framework."
-  },
-  {
-    "objectID": "bibliography/published_works.html#university-of-minnesota",
-    "href": "bibliography/published_works.html#university-of-minnesota",
-    "title": "Published Works",
-    "section": "University of Minnesota",
-    "text": "University of Minnesota\n\nWillis et al. (2022)\n\nClinical research study using EHR abstracted data to understand the impact of a cancer biomarker on real-world overall survival. I was responsible for data analysis and result reporting, including design and production of waterfall plots in R.\n\nZach Rivers et al. (2022)\n\nPart of my dissertation, this manuscript used real-world data to identify treatment patterns and parameters for an economic model.\n\nNguyen et al. (2020)\n\nClinical research study using EHR data linked to patient samples. Served as an analytic mentor and advisor to early PhD students leading research.\n\nKessel et al. (2020)\n\nExploratory study examining the impact and role of biomarkers in kidney cancer. I was responsible for data analysis and review.\n\nRamsey et al. (2020)\n\nThis manuscript was a multi-stakeholder project where I served as one of the points of contact for an individual research institution. This project gave me the opportunity to work as a consultant as part of a larger data project."
-  },
-  {
-    "objectID": "bibliography/published_works.html#tempus-ai-1",
-    "href": "bibliography/published_works.html#tempus-ai-1",
-    "title": "Published Works",
-    "section": "Tempus AI",
-    "text": "Tempus AI\n\nZachary Rivers, Aggarwal, et al. (2024)\n\nThis poster, with a manuscript forthcoming, uses real-world claims, EHR, and genetic testing information (from (Gentzler et al. 2024)) to understand the clinical and economic impact of biomarker testing in a pan-cancer population treated with immunotherapy. I built the data pipeline, wrote the simulation model in R, and was responsible for this project to our internal and external stakeholders."
-  },
-  {
-    "objectID": "bibliography/published_works.html#fred-hutchinson-cancer-research-center-1",
-    "href": "bibliography/published_works.html#fred-hutchinson-cancer-research-center-1",
-    "title": "Published Works",
-    "section": "Fred Hutchinson Cancer Research Center",
-    "text": "Fred Hutchinson Cancer Research Center\n\nZachary Rivers, Luczak, et al. (2022)\n\nThis abstract looked at how economic analyses of polygenic risk scores included, or didn’t include, population level data. This was intended to support a K Award application, but I was recruited away to industry.\n\nZachary Rivers, Roth, et al. (2023)\n\nThis manuscript used an Excel-based model to provide stakeholders with a tool to understand the economic impact of different cancer survivorship interventions. I updated and refined the model, and worked with focus groups to understand use cases."
-  },
-  {
-    "objectID": "bibliography/published_works.html#university-of-minnesota-1",
-    "href": "bibliography/published_works.html#university-of-minnesota-1",
-    "title": "Published Works",
-    "section": "University of Minnesota",
-    "text": "University of Minnesota\n\nDissertation work (Zachary Rivers 2021)\n\nZachary Rivers, Stenehjem, Jacobson, et al. (2020a) and Zachary Rivers, Stenehjem, Lou, et al. (2020)\n\nThese abstracts present the early and middle stages of an economic model of genetic testing in a US population over a lifetime time horizon. Built in TreeAge, and subsequently ported to R.\n\nZachary Rivers, Stenehjem, Jacobson, et al. (2020b)\n\nThis abstract is a budget impact model of implementing the above genetic testing from the perspective of a US Cancer Center.\n\nZachary Rivers, Stenehjem, and Kuntz (2021)\n\nThis abstract conducts a value of information analysis (VOI) for the economic model of genetic testing in colorectal cancer.\n\n\nOthers\n\nBiltaji et al. (2021)\n\nThis manuscript looked at the potential for biomarkers to inform colorectal cancer prevention. A complex economic model was constructed in TreeAge, and I was responsible for updates, data changes, and final model outputs.\n\nZachary Rivers, Stenehjem, et al. (2018)\n\nThis model used real-world genetic variant data and treatment patterns to explore how biomarker testing could prevent nausea and vomiting in cancer.\n\nKumar et al. (2021)\n\nThis model explored pharmacogenomic testing in pediatric patients. I supported model design and programming."
-  },
-  {
-    "objectID": "bibliography/published_works.html#tempus-ai-2",
-    "href": "bibliography/published_works.html#tempus-ai-2",
-    "title": "Published Works",
-    "section": "Tempus AI",
-    "text": "Tempus AI\n\nZachary Rivers, Hyde, et al. (2023)\n\nI led a group of clinicians and researchers at Tempus in identifying how a new clinical trial program could benefit pediatric cancer patients. I developed the survey instrument and was responsible for data analysis and publication."
-  },
-  {
-    "objectID": "bibliography/published_works.html#fred-hutchinson-cancer-research-center-2",
-    "href": "bibliography/published_works.html#fred-hutchinson-cancer-research-center-2",
-    "title": "Published Works",
-    "section": "Fred Hutchinson Cancer Research Center",
-    "text": "Fred Hutchinson Cancer Research Center\n\nZachary Rivers, Shankaran, et al. (2022a) and Zachary Rivers, Shankaran, et al. (2022b)\n\nThis project used patient-reported survey data to understand how patients and their caregivers experienced and perceived financial toxicity. I was responsible for data analysis and result preparation. GitHub Repo"
-  },
-  {
-    "objectID": "bibliography/published_works.html#university-of-minnesota-2",
-    "href": "bibliography/published_works.html#university-of-minnesota-2",
-    "title": "Published Works",
-    "section": "University of Minnesota",
-    "text": "University of Minnesota\n\nLounsbery et al. (2019)\n\nManuscript exploring how pharmacy students rated their confidence and education during their clinical rotations. Responsible for analytics and result presentation."
-  },
-  {
-    "objectID": "bibliography/published_works.html#university-of-minnesota-3",
-    "href": "bibliography/published_works.html#university-of-minnesota-3",
-    "title": "Published Works",
-    "section": "University of Minnesota",
-    "text": "University of Minnesota\n\nColes et al. (2015)\n\nEarly publication from my PharmD, collaboration between benchtop scientists and clinicians to understand pharmacokinetics of a novel antiepileptic formulation.\n\nZachary Rivers, Oostra, et al. (2018)\n\nCase report and literature review based on clinical rotation experience. A complex patient case led me to explore a potential underreported adverse event signal in a class of anticancer agents.\n\nFikru et al. (2016)\n\nThis abstract compared and contrasted pharmacogenomics coverage by insurance companies. This project showed me that there was a gap in the economic field around genetic testing and biomarkers\n\nZachary Rivers, Xing, and Narayanapillai (2016)\n\nPharmD Capstone paper. Reviewed mechanisms of a plant-based approach to the management of anxiety."
-  },
-  {
-    "objectID": "index.html#published-works",
-    "href": "index.html#published-works",
-    "title": "Welcome",
-    "section": "",
-    "text": "I have published extensively in the fields of pharmacogenomics, health economics, and cancer research. My work focuses on:\n\nPharmacogenomics implementation in clinical practice\nCost-effectiveness analysis of genetic testing\nReal-world evidence in cancer treatment\nHealth disparities in cancer care\nEconomic evaluation of precision medicine\n\nFor a complete list of my publications, please visit the Published Works section."
   }
 ]
