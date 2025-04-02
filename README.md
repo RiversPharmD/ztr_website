@@ -1,4 +1,4 @@
-# Personal Website
+# Personal Academic Website
 
 This repository contains the source code for my personal academic website, built using Quarto. The website serves as a platform to showcase my research, publications, and professional journey in the fields of pharmacogenomics, health economics, and cancer research.
 
@@ -52,6 +52,43 @@ This repository contains the source code for my personal academic website, built
    ```bash
    quarto render
    ```
+
+## Deployment
+
+This website is deployed using GitHub Pages with a custom GitHub Actions workflow. The deployment process:
+
+1. **Build Environment Setup**
+   - Installs R 4.3.0
+   - Sets up TinyTeX for PDF generation
+   - Installs required R packages (rmarkdown, knitr, tidyverse, DT)
+   - Uses caching to speed up subsequent builds
+
+2. **Site Generation**
+   - Builds the site using Quarto
+   - Processes R code blocks
+   - Generates citations and references
+   - Deploys to the `gh-pages` branch
+
+3. **Monitoring**
+   - Workflow status is monitored through GitHub Actions
+   - Failed builds trigger notifications
+   - Cache status is tracked for build performance
+
+### Deployment Workflow
+
+The site is deployed using the "Publish Quarto Website" workflow, which:
+- Runs automatically on pushes to `main`
+- Can be triggered manually from the Actions tab
+- Handles all R dependencies and Quarto-specific requirements
+- Uses caching to optimize build times
+
+### Troubleshooting
+
+If the site fails to deploy:
+1. Check the Actions tab for error messages
+2. Verify R package installation logs
+3. Ensure all dependencies are properly specified
+4. Check for any R code errors in the source files
 
 ## Contributing
 

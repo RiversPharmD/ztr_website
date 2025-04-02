@@ -1,0 +1,51 @@
+name: Status Check
+
+on:
+  workflow_run:
+    workflows: ["Publish Quarto Website"]
+    types:
+      - completed
+      - failure
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Workflow Status
+        if: ${{ github.event.workflow_run.conclusion == 'failure' }}
+        run: |
+          echo "❌ Deployment failed! Check the workflow logs for details."
+          echo "Workflow run: ${{ github.event.workflow_run.html_url }}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check Cache Status
+        run: |
+          echo "Checking cache status..."
+          if [ -d "~/.cache/R-packages" ]; then
+            echo "✅ R packages cache exists"
+            du -sh ~/.cache/R-packages
+          else
+            echo "⚠️ R packages cache not found"
+          fi
+
+      - name: Check Site Deployment
+        run: |
+          echo "Checking site deployment..."
+          if curl -s -o /dev/null -w "%{http_code}" https://riverspharmd.github.io/ztr_website/ | grep -q "200"; then
+            echo "✅ Site is accessible"
+          else
+            echo "❌ Site is not accessible"
+          fi
+
+      - name: Create Issue on Failure
+        if: ${{ github.event.workflow_run.conclusion == 'failure' }}
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const issue = await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: '🚨 Deployment Failed',
+              body: `The deployment workflow failed. Please check the [workflow run](${context.payload.workflow_run.html_url}) for details.`
+            }); 
