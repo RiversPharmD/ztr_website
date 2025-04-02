@@ -23,9 +23,20 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
+      - name: Cache R packages
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.R/library
+            ~/.cache/R-packages
+          key: ${{ runner.os }}-r-packages-${{ hashFiles('**/*.Rmd', '**/*.qmd') }}
+          restore-keys: |
+            ${{ runner.os }}-r-packages-
+
       - name: Install R Dependencies
         run: |
-          Rscript -e 'install.packages(c("rmarkdown", "knitr", "tidyverse", "DT"), repos="https://cloud.r-project.org/")'
+          Rscript -e 'install.packages(c("rmarkdown", "knitr", "DT"), repos="https://cloud.r-project.org/")'
+          Rscript -e 'install.packages("tidyverse", repos="https://cloud.r-project.org/", quiet=TRUE)'
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
