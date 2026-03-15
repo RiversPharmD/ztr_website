@@ -1,28 +1,25 @@
 ---
-title: "Project Name"
-date: YYYY-MM-DD
+title: "Magic: The Gathering cards"
+date: 2025-01-01
 params:
-  project-tag: project-slug   # use the same slug in blog post tags to link posts here
-github: "https://github.com/username/repo"
-# docs: "https://optional-external-docs.url"
+  project-tag: mtg-cards
 ---
 
 # What it is
 
-A short summary of what this project is and what it does.
+A placeholder project about tracking, organizing, or analyzing Magic: The Gathering cards—could be a collection tracker, deck builder, or just a fun data/scripting playground.
 
 # Why I did it
 
-What problem or interest led you to start this.
+(Placeholder: e.g. wanted to combine a hobby with some light coding, or get better at working with APIs/datasets.)
 
 # What I learned (or am hoping to learn)
 
-Takeaways so far, or goals you're still working toward.
+(Placeholder: e.g. working with card databases, simple UIs, or just making something that’s useful to me.)
 
 # Links
 
-- **Repo:** [GitHub](`r params$github`)
-- Add other links (docs, demo, etc.) as needed.
+No external links yet.
 
 # Recent posts
 

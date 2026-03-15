@@ -2,21 +2,16 @@
 title: "Projects"
 ---
 
-# My Projects
-
-## Featured Projects
+# Projects
 
 ### [Personal Website](projects/personal-website.qmd)
-A Quarto-based personal site for projects, blog posts, and publications—with custom styling, search, and GitHub Pages deployment.
+This site—home base for projects, blog, and publications. Quarto, custom styling, GitHub Pages.
 
-- **Technologies:** Quarto, HTML/CSS, R (optional), GitHub Actions
-- **Repo:** [GitHub](https://github.com/yourusername/ztr_website)
+### [Magic: The Gathering cards](projects/mtg-cards.qmd)
+Placeholder: tracking or playing with MTG card data. (No external links yet.)
 
-### Project 2
-[Description to come.]
+### [Legos](projects/legos.qmd)
+Placeholder: cataloging sets, builds, or something else Lego-related. (No external links yet.)
 
-- **Technologies used:** [List technologies]
-- **GitHub:** [Link to repository]
-
-### Project 3
-[Description to come.] 
+### [Cooking](projects/cooking.qmd)
+Placeholder: recipes, meal planning, or cooking notes. (No external links yet.) 

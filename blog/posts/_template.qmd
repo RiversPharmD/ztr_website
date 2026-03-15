@@ -3,7 +3,7 @@ title: "Your Post Title"
 author: "Your Name"
 date: YYYY-MM-DD
 categories: [category1, category2]
-tags: [tag1, tag2]
+tags: [tag1, tag2]   # Include a project slug (e.g. personal-website) to show this post on that project's page
 image: path/to/featured-image.jpg
 description: "A brief description of your post that will appear in previews and search results"
 ---

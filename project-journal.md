@@ -1,4 +1,4 @@
-## Project Journal
+﻿## Project Journal
 
 This file is a **persistent log** of work on `ztr_website`. It is meant to be:
 
@@ -12,7 +12,7 @@ Entries are appended over time and kept under version control so we can see how 
 
 ### Entry template (for future sessions)
 
-For each working session, we’ll roughly follow this structure:
+For each working session, we'll roughly follow this structure:
 
 ```markdown
 ## YYYY-MM-DD – Short session title
@@ -27,7 +27,7 @@ For each working session, we’ll roughly follow this structure:
 - ...
 ```
 
-We don’t have to be rigid, but this format should keep entries short, scannable, and useful.
+We don't have to be rigid, but this format should keep entries short, scannable, and useful.
 
 ---
 
@@ -116,14 +116,14 @@ We don’t have to be rigid, but this format should keep entries short, scannabl
 ## 2026-03-15 – Structure, IA, and package alignment
 
 **What we did**
-- Aligned site structure with scope: added **Publications** to navbar, updated Home with a short positioning block, surfaced the Personal Website project on the Projects index with two placeholders, replaced manual blog links with a **Quarto listing** and “Categories coming soon.”
+- Aligned site structure with scope: added **Publications** to navbar, updated Home with a short positioning block, surfaced the Personal Website project on the Projects index with two placeholders, replaced manual blog links with a **Quarto listing** and "Categories coming soon."
 - **Quarto config:** Dark mode with `dark: slate`, `light: cosmo`, and `respect-user-color-scheme: true`; explicit navbar search; `site-url` set for RSS; **removed** `publish-dir: docs` (deploy via `gh-pages` branch only); footer set to 2025.
 - **Deployment (B3):** Kept `output-dir: _site` for local builds; added `/_site/` to `.gitignore`; documented in README that CI builds and pushes to `gh-pages`.
 - **Package/workflow bump:** GitHub Actions checkout@v4, `permissions: contents: write`, `GITHUB_TOKEN` for publish step; R 4.4.0; Quarto pinned to 1.4; README updated with deployment and version notes.
 
 **Key learnings / decisions**
 - Best practice for this repo: publish to `gh-pages` branch only; do not use `docs` on `main`.
-- Blog index now uses Quarto’s native listing + feed; RSS will be at `blog/index.xml` once `site-url` is correct.
+- Blog index now uses Quarto's native listing + feed; RSS will be at `blog/index.xml` once `site-url` is correct.
 
 **Open questions / next steps**
 - Set `site-url` in `_quarto.yml` to your real GitHub Pages URL (e.g. custom domain) if it differs from `https://zachr.github.io/ztr_website/`.
@@ -139,10 +139,10 @@ We don’t have to be rigid, but this format should keep entries short, scannabl
 - Build verified with `quarto render`.
 
 **Key learnings / decisions**
-- Quarto’s sidebar uses `#quarto-sidebar`, `.sidebar-navigation`, `.sidebar-link`, etc.; theme toggle and search appear in the sidebar when there is no navbar.
+- Quarto's sidebar uses `#quarto-sidebar`, `.sidebar-navigation`, `.sidebar-link`, etc.; theme toggle and search appear in the sidebar when there is no navbar.
 - On narrow screens the sidebar collapses to a title bar; tapping it reveals the nav (drawer behavior).
 
 **Open questions / next steps**
-- **Reminder: Workshop a better name for the page.** After this sidebar design is in place, the next step is to workshop a better site title (currently “Zach’s Personal Website”). Consider options that fit the academic × personal tone (e.g. “Zach Rivers”, “Zach Rivers — Research & Writing”, or a short tagline). Update `website.title` in `_quarto.yml` and any visible labels when decided.
+- **Done:** Site title set to "Zach Rivers, PharmD, PhD"; content prompting questions in `meta/content-prompting-questions.md`.
 - Run `quarto preview` and check sidebar on desktop and mobile in both light and dark themes; tweak CSS if needed.
 

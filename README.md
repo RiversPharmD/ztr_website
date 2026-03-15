@@ -1,4 +1,4 @@
-# Personal Website
+# Zach Rivers, PharmD, PhD — Personal Website
 
 This repository contains the source code for my personal academic website, built using Quarto. The website serves as a platform to showcase my research, publications, and professional journey in the fields of pharmacogenomics, health economics, and cancer research.
 

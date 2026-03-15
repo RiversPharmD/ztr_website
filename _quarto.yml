@@ -11,7 +11,7 @@ project:
     - "bibliography/*.qmd"
 
 website:
-  title: "Zach's Personal Website"
+  title: "Zach Rivers, PharmD, PhD"
   site-url: https://riverspharmd.github.io/ztr_website/
   sidebar:
     style: docked

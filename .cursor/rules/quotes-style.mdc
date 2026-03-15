@@ -1,0 +1,28 @@
+---
+description: Use straight (ASCII) quotes only; no smart/curly quotes in repo content
+globs: "**/*.qmd,**/*.md,**/*.yml,**/*.yaml"
+alwaysApply: false
+---
+
+# Quote style: straight quotes only
+
+Use **straight (ASCII) quotes** only in this repo. Do not introduce or leave **smart/curly typographic quotes**.
+
+## Allowed
+
+- Single quote: `'` (U+0027)
+- Double quote: `"` (U+0022)
+
+## Avoid
+
+- Left/right single quotation marks: `‘` `’` (U+2018, U+2019)
+- Left/right double quotation marks: `“` `”` (U+201C, U+201D)
+
+## Why
+
+Straight quotes ensure consistent string matching in search-and-replace, configs, and scripts across editors and tools.
+
+## When editing
+
+- Type or paste using straight `'` and `"`.
+- If you normalize existing content, replace any curly/smart quotes with the corresponding straight character.

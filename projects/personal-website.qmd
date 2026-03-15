@@ -1,143 +1,75 @@
 ---
 title: "Personal Website"
 date: 2024-04-01
-status: "In Progress"
-technologies: ["Quarto", "HTML", "CSS", "Git"]
-github: "https://github.com/yourusername/ztr_website"
-demo: "https://yourusername.github.io/ztr_website"
+params:
+  project-tag: personal-website
+github: "https://github.com/RiversPharmD/ztr_website"
+demo: "https://riverspharmd.github.io/ztr_website"
 ---
 
-# Project Overview
+# What it is
 
-A professional personal website built with Quarto, designed to showcase my projects, share technical insights through blog posts, and establish my professional brand. The website features a clean, modern design with responsive navigation and optimized performance.
+This site: a home base for my projects, a place to practice coding outside work, and a way to connect with others. Built with Quarto—responsive, searchable, and easy to tweak.
 
-## Features
+# Why I did it
 
-- **Responsive Design**: Mobile-friendly layout that works on all devices
-- **Blog System**: Organized content with categories and tags
-- **Project Showcase**: Detailed documentation of technical projects
-- **Custom Styling**: Unique visual identity through custom CSS
-- **Code Integration**: Support for R and Python code execution
-- **Search Engine Optimization**: Built-in SEO features
+I wanted a single place to point people (employers, collaborators, friends) that wasn't LinkedIn or a CV. Also wanted to get comfortable with Quarto and static sites.
 
-## Technical Details
+# What I learned (or am hoping to learn)
 
-### Architecture
+Quarto's flexibility (R, Python, or neither), how to keep content and structure maintainable with templates, and how to wire up a simple sidebar + search without overdoing it. Still iterating on tone and what to put in "projects" vs "posts."
 
-The website is built using a static site generator approach with Quarto:
+# Links
 
-1. **Content Layer**
-   - Markdown-based content files (`.qmd`)
-   - YAML front matter for metadata
-   - Modular structure for easy maintenance
+- **Repo:** [GitHub](https://github.com/RiversPharmD/ztr_website)
+- **Site:** [Live site](https://riverspharmd.github.io/ztr_website)
 
-2. **Presentation Layer**
-   - Custom CSS for styling
-   - Responsive navigation
-   - Mobile-first design approach
+# Recent posts
 
-3. **Build Process**
-   - Quarto compilation to static HTML
-   - Asset optimization
-   - SEO optimization
+Posts tagged with this project (most recent 3):
 
-### Technologies Used
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| results: asis
 
-- **Quarto**: Main static site generator
-- **HTML/CSS**: Frontend structure and styling
-- **Git**: Version control and deployment
-- **GitHub Pages**: Hosting and deployment
+tag <- params[["project-tag"]]
+if (is.null(tag)) tag <- sub("\\.qmd$", "", basename(knitr::current_input(dir = TRUE)))
 
-## Implementation
+posts_dir <- "blog/posts"
+files <- list.files(posts_dir, pattern = "\\.qmd$", full.names = TRUE)
+files <- files[basename(files) != "_template.qmd"]
 
-### Key Components
+parse_frontmatter <- function(path) {
+  lines <- readLines(path, warn = FALSE)
+  delim <- which(lines == "---")
+  if (length(delim) < 2) return(NULL)
+  block <- paste(lines[(delim[1] + 1):(delim[2] - 1)], collapse = "\n")
+  tryCatch(yaml::yaml.load(block), error = function(e) NULL)
+}
 
-```yaml
-# _quarto.yml configuration
-project:
-  type: website
-  output-dir: _site
+posts <- list()
+for (f in files) {
+  fm <- parse_frontmatter(f)
+  if (is.null(fm)) next
+  tags <- fm$tags
+  if (is.null(tags)) next
+  if (!tag %in% tags) next
+  title <- if (!is.null(fm$title)) fm$title else "Untitled"
+  date  <- if (!is.null(fm$date)) fm$date else NA_character_
+  stem  <- sub("\\.qmd$", "", basename(f))
+  href  <- paste0("../blog/posts/", stem, ".html")
+  posts <- c(posts, list(list(title = title, date = date, href = href)))
+}
 
-website:
-  title: "Zach's Personal Website"
-  navbar:
-    left:
-      - text: "Home"
-        file: index.qmd
-      - text: "About"
-        file: about.qmd
+if (length(posts) == 0) {
+  cat("No posts tagged with `", tag, "` yet.\n", sep = "")
+} else {
+  ord <- order(sapply(posts, function(p) p$date), decreasing = TRUE)
+  posts <- posts[ord][1:min(3, length(posts))]
+  for (p in posts) {
+    cat("- [", p$title, "](", p$href, ")\n", sep = "")
+  }
+}
 ```
-
-### Challenges and Solutions
-
-1. **Challenge**: Organizing content structure
-   - **Solution**: Created clear directory structure with templates
-
-2. **Challenge**: Maintaining consistent styling
-   - **Solution**: Centralized CSS with reusable components
-
-3. **Challenge**: Content management
-   - **Solution**: Template-based approach for blog posts and projects
-
-## Results
-
-### Performance Metrics
-
-- Page load time: < 2 seconds
-- Mobile responsiveness: 100%
-- SEO score: 95/100
-
-## Future Improvements
-
-- Add dark mode support
-- Implement search functionality
-- Add newsletter subscription
-- Integrate analytics
-- Add comments system
-- Create RSS feed
-
-## Getting Started
-
-### Prerequisites
-
-- Quarto installed
-- Git
-- GitHub account
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/ztr_website.git
-cd ztr_website
-
-# Install dependencies (if any)
-# Currently using only built-in Quarto features
-```
-
-### Usage
-
-1. **Local Development**
-   ```bash
-   quarto preview
-   ```
-
-2. **Building for Production**
-   ```bash
-   quarto render
-   ```
-
-3. **Deploying**
-   ```bash
-   git add .
-   git commit -m "Update website"
-   git push origin main
-   ```
-
-## Contributing
-
-While this is a personal website, suggestions and feedback are welcome through GitHub issues.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 

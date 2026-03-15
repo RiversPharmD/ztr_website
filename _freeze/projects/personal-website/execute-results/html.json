@@ -1,0 +1,15 @@
+{
+  "hash": "5de4e04525c97dfc75bac155fa20a4e2",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Personal Website\"\ndate: 2024-04-01\nparams:\n  project-tag: personal-website\ngithub: \"https://github.com/RiversPharmD/ztr_website\"\ndemo: \"https://riverspharmd.github.io/ztr_website\"\n---\n\n\n\n# What it is\n\nThis site: a home base for my projects, a place to practice coding outside work, and a way to connect with others. Built with Quarto—responsive, searchable, and easy to tweak.\n\n# Why I did it\n\nI wanted a single place to point people (employers, collaborators, friends) that wasn't LinkedIn or a CV. Also wanted to get comfortable with Quarto and static sites.\n\n# What I learned (or am hoping to learn)\n\nQuarto's flexibility (R, Python, or neither), how to keep content and structure maintainable with templates, and how to wire up a simple sidebar + search without overdoing it. Still iterating on tone and what to put in \"projects\" vs \"posts.\"\n\n# Links\n\n- **Repo:** [GitHub](https://github.com/RiversPharmD/ztr_website)\n- **Site:** [Live site](https://riverspharmd.github.io/ztr_website)\n\n# Recent posts\n\nPosts tagged with this project (most recent 3):\n\n\n\nNo posts tagged with `personal-website` yet.\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

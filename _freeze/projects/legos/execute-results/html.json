@@ -1,0 +1,15 @@
+{
+  "hash": "a3a850f79d51ffb2eaf96485e0ff9973",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Legos\"\ndate: 2025-01-01\nparams:\n  project-tag: legos\n---\n\n\n\n\n# What it is\n\nA placeholder project about Legos—could be cataloging sets, building instructions, photography, or something else entirely.\n\n# Why I did it\n\n(Placeholder: e.g. fun way to mix a hobby with organizing or documenting something.)\n\n# What I learned (or am hoping to learn)\n\n(Placeholder: e.g. photography, databases, or just enjoying the process.)\n\n# Links\n\nNo external links yet.\n\n# Recent posts\n\nPosts tagged with this project (most recent 3):\n\n\n\n\nNo posts tagged with `legos` yet.\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

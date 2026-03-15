@@ -1,4 +1,4 @@
----
+﻿---
 title: "Blog"
 listing:
   id: listing
@@ -12,7 +12,7 @@ listing:
 
 # Blog
 
-Thoughts, tutorials, and notes on research, code, and whatever I’m working on.
+Thoughts, tutorials, and notes on research, code, and whatever I'm working on.
 
 ::: {#listing}
 :::

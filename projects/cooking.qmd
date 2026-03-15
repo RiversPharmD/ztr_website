@@ -1,28 +1,25 @@
 ---
-title: "Project Name"
-date: YYYY-MM-DD
+title: "Cooking"
+date: 2025-01-01
 params:
-  project-tag: project-slug   # use the same slug in blog post tags to link posts here
-github: "https://github.com/username/repo"
-# docs: "https://optional-external-docs.url"
+  project-tag: cooking
 ---
 
 # What it is
 
-A short summary of what this project is and what it does.
+A placeholder project about cooking—recipes, meal planning, techniques, or whatever you end up tracking or sharing.
 
 # Why I did it
 
-What problem or interest led you to start this.
+(Placeholder: e.g. wanted to document what works, share with family, or turn it into a small coding project.)
 
 # What I learned (or am hoping to learn)
 
-Takeaways so far, or goals you're still working toward.
+(Placeholder: e.g. recipe formatting, meal prep, or just eating better.)
 
 # Links
 
-- **Repo:** [GitHub](`r params$github`)
-- Add other links (docs, demo, etc.) as needed.
+No external links yet.
 
 # Recent posts
 

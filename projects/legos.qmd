@@ -1,28 +1,25 @@
 ---
-title: "Project Name"
-date: YYYY-MM-DD
+title: "Legos"
+date: 2025-01-01
 params:
-  project-tag: project-slug   # use the same slug in blog post tags to link posts here
-github: "https://github.com/username/repo"
-# docs: "https://optional-external-docs.url"
+  project-tag: legos
 ---
 
 # What it is
 
-A short summary of what this project is and what it does.
+A placeholder project about Legos—could be cataloging sets, building instructions, photography, or something else entirely.
 
 # Why I did it
 
-What problem or interest led you to start this.
+(Placeholder: e.g. fun way to mix a hobby with organizing or documenting something.)
 
 # What I learned (or am hoping to learn)
 
-Takeaways so far, or goals you're still working toward.
+(Placeholder: e.g. photography, databases, or just enjoying the process.)
 
 # Links
 
-- **Repo:** [GitHub](`r params$github`)
-- Add other links (docs, demo, etc.) as needed.
+No external links yet.
 
 # Recent posts
 
