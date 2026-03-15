@@ -2,9 +2,9 @@
 title: "Welcome"
 ---
 
-# Welcome to My Website
+# Welcome
 
-This is my personal website where I share my projects, thoughts, and professional journey.
+This site showcases my work as a scientist and researcher—my projects, writing, and publications. It’s a home base for what I’ve built, what I’m thinking about, and how to get in touch.
 
 ## Recent Posts
 

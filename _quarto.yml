@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Zach's Personal Website"
+  site-url: https://riverspharmd.github.io/ztr_website/
   navbar:
     left:
       - text: "Home"
@@ -14,14 +15,22 @@ website:
         file: projects.qmd
       - text: "Blog"
         file: blog/index.qmd
+      - text: "Publications"
+        file: bibliography/published_works.qmd
   page-navigation: true
   page-footer:
-    left: Copyright 2024
+    left: Copyright 2025
     right: Made with Quarto
+  search:
+    location: navbar
+    type: overlay
 
 format:
   html:
-    theme: cosmo
+    theme:
+      dark: slate
+      light: cosmo
+    respect-user-color-scheme: true
     toc: true
     code-fold: true
     highlight-style: github
@@ -32,6 +41,3 @@ format:
 
 execute:
   freeze: auto
-
-# GitHub Pages deployment configuration
-publish-dir: docs 

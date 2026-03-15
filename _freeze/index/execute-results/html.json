@@ -1,0 +1,15 @@
+{
+  "hash": "7ef682075a96249036d8b03c4fd01e8d",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Welcome\"\n---\n\n\n\n\n# Welcome\n\nThis site showcases my work as a scientist and researcher—my projects, writing, and publications. It’s a home base for what I’ve built, what I’m thinking about, and how to get in touch.\n\n## Recent Posts\n\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\n## Featured Projects\n\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\n## Published Works\n\nI have published extensively in the fields of pharmacogenomics, health economics, and cancer research. My work focuses on:\n\n- Pharmacogenomics implementation in clinical practice\n- Cost-effectiveness analysis of genetic testing\n- Real-world evidence in cancer treatment\n- Health disparities in cancer care\n- Economic evaluation of precision medicine\n\nFor a complete list of my publications, please visit the [Published Works](/bibliography/published_works.qmd) section. ",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

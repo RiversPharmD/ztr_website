@@ -6,24 +6,17 @@ title: "Projects"
 
 ## Featured Projects
 
-### Project 1
-Description of your first project.
+### [Personal Website](projects/personal-website.qmd)
+A Quarto-based personal site for projects, blog posts, and publications—with custom styling, search, and GitHub Pages deployment.
 
-- **Technologies used:** [List technologies]
-- **GitHub:** [Link to repository]
-- **Live demo:** [Link to demo]
+- **Technologies:** Quarto, HTML/CSS, R (optional), GitHub Actions
+- **Repo:** [GitHub](https://github.com/yourusername/ztr_website)
 
 ### Project 2
-Description of your second project.
+[Description to come.]
 
 - **Technologies used:** [List technologies]
 - **GitHub:** [Link to repository]
-- **Live demo:** [Link to demo]
-
-## Other Projects
 
 ### Project 3
-Brief description of another project.
-
-### Project 4
-Brief description of another project. 
+[Description to come.] 

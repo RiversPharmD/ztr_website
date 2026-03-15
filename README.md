@@ -48,10 +48,18 @@ This repository contains the source code for my personal academic website, built
    quarto preview
    ```
 
-3. Build the website:
+3. Build the website (output goes to `_site/`):
    ```bash
    quarto render
    ```
+
+### Deployment
+
+The site is deployed to **GitHub Pages** via the `gh-pages` branch. Pushing to `main` triggers the GitHub Action (`.github/workflows/publish.yml`), which renders the Quarto site and pushes the built output to the `gh-pages` branch. GitHub Pages is configured to serve from that branch at the repository root.
+
+- **Local build output:** `_site/` (in `.gitignore`; do not commit).
+- **Quarto version:** 1.4 (set in the workflow).
+- **R version:** 4.4.0 (set in the workflow).
 
 ## Contributing
 

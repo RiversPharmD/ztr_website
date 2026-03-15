@@ -111,3 +111,21 @@ We don’t have to be rigid, but this format should keep entries short, scannabl
 - Confirm or adjust the Top 5 priorities as we begin working through them.
 - Implement subagent rules (`project-core`, content, design, infra) and update this journal when they are added or changed.
 
+---
+
+## 2026-03-15 – Structure, IA, and package alignment
+
+**What we did**
+- Aligned site structure with scope: added **Publications** to navbar, updated Home with a short positioning block, surfaced the Personal Website project on the Projects index with two placeholders, replaced manual blog links with a **Quarto listing** and “Categories coming soon.”
+- **Quarto config:** Dark mode with `dark: slate`, `light: cosmo`, and `respect-user-color-scheme: true`; explicit navbar search; `site-url` set for RSS; **removed** `publish-dir: docs` (deploy via `gh-pages` branch only); footer set to 2025.
+- **Deployment (B3):** Kept `output-dir: _site` for local builds; added `/_site/` to `.gitignore`; documented in README that CI builds and pushes to `gh-pages`.
+- **Package/workflow bump:** GitHub Actions checkout@v4, `permissions: contents: write`, `GITHUB_TOKEN` for publish step; R 4.4.0; Quarto pinned to 1.4; README updated with deployment and version notes.
+
+**Key learnings / decisions**
+- Best practice for this repo: publish to `gh-pages` branch only; do not use `docs` on `main`.
+- Blog index now uses Quarto’s native listing + feed; RSS will be at `blog/index.xml` once `site-url` is correct.
+
+**Open questions / next steps**
+- Set `site-url` in `_quarto.yml` to your real GitHub Pages URL (e.g. custom domain) if it differs from `https://zachr.github.io/ztr_website/`.
+- Run `quarto preview` and click through all nav items and both themes; add more project case studies and posts per the Top 5.
+
