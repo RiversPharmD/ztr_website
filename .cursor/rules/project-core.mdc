@@ -1,0 +1,88 @@
+---
+description: Core project rules and subagent orchestration for ztr_website
+alwaysApply: true
+---
+
+# Project Core Rules & Subagent Orchestration
+
+This rule ties together `scope.md`, `project-journal.md`, and the domain-specific rules in `.cursor/rules/` for the `ztr_website` project.
+
+---
+
+## 1. Project anchors
+
+- Treat `scope.md` as the **source of truth** for:
+  - Project purpose and phase goals.
+  - In-scope vs out-of-scope work.
+  - The current \"Definition of Done\" for this phase.
+- Treat `project-journal.md` as the **history and learning log**:
+  - What changed in a given session.
+  - Key decisions, tradeoffs, and open questions.
+- Treat `.cursor/rules/*.mdc` as **behavioral contracts** for agents (design, content, infra, etc.).
+
+All agents should prefer information in `scope.md` over older plans when they conflict.
+
+---
+
+## 2. Domain-focused subagents
+
+We use three domain agents, each with its own rule file:
+
+- **Content Architect**
+  - Focus: structure and narrative of pages and posts (`*.qmd`).
+  - Rule file: `.cursor/rules/content-architect.mdc`.
+- **Design & UX**
+  - Focus: layout, typography, dark mode, and accessibility.
+  - Rule file: `.cursor/rules/design-ux.mdc`.
+- **Infra & Workflow**
+  - Focus: Quarto config, CI/CD, deployment, and dev workflows.
+  - Rule file: `.cursor/rules/infra-workflow.mdc`.
+
+Each agent should stay primarily within its domain and defer outside it.
+
+---
+
+## 3. Orchestration guidance for the main agent
+
+- When the main change is about **narrative, structure, or front matter**:
+  - Prefer the **Content Architect** agent.
+- When the main change is about **styling, layout, dark mode, or accessibility**:
+  - Prefer the **Design & UX** agent.
+- When the main change is about **CI, deployment, Quarto build paths, or contributor workflows**:
+  - Prefer the **Infra & Workflow** agent.
+
+For mixed work (e.g., rewriting a page and adjusting layout), prefer this order:
+1. Content Architect shapes the structure and copy.
+2. Design & UX adjusts presentation to match.
+3. Infra & Workflow updates tooling or docs if needed.
+
+---
+
+## 4. Conflicts and feedback loop
+
+- If two domain agents suggest conflicting approaches:
+  - The main agent should present **multiple options** (2–3) with brief pros/cons and a recommendation.
+  - Major tradeoffs or surprises should be recorded in `project-journal.md` as part of the session entry.
+- When an agent's suggestions repeatedly feel off (tone, design, or infra risk):
+  - Note the issue at the end of that session's journal entry.
+  - Use a later \"meta review\" session to refine the relevant `.mdc` rule.
+
+---
+
+## 5. Meta review cadence
+
+- Roughly every **3–4 active working sessions**, the main agent should trigger a short meta review:
+  - Skim `scope.md`, `project-journal.md`, and the rules in `.cursor/rules/`.
+  - Check for drift between documented intent and how we are actually working.
+  - Propose focused updates to rules or scope when necessary.
+
+---
+
+## 6. Conventional Commits & safety nets
+
+- All agents that suggest commit messages should follow **Conventional Commits**, as described in `website-design.mdc`:
+  - Use `type(scope): summary` format (e.g., `feat(projects): add case study for survey modeling`).
+- For changes that affect build, deployment, or site structure:
+  - Prefer making them in **separate, testable steps**.
+  - Ensure `quarto preview` or `quarto render` is run and that key pages render correctly before recommending deployment.
+

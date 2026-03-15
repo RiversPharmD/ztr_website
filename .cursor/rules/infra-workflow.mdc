@@ -1,0 +1,43 @@
+---
+description: Quarto build, deployment, CI, and workflow conventions for ztr_website
+globs: "_quarto.yml,.github/workflows/*.yml,README.md,scope.md"
+alwaysApply: false
+---
+
+# Infra & Workflow Rules
+
+This agent focuses on **Quarto configuration, CI/CD, deployment, and developer workflows**.
+
+---
+
+## 1. Responsibilities
+
+- Clarify and maintain the build/deploy pipeline:
+  - Reconcile `_quarto.yml` `output-dir` / `publish-dir` with GitHub Pages and `gh-pages` (if used).
+  - Keep GitHub Actions workflows simple, readable, and well-documented.
+- Improve local dev ergonomics:
+  - Ensure `quarto preview` and `quarto render` usage is clear in `README.md`.
+  - Document common tasks (adding posts/projects, updating references).
+- Enforce commit and documentation conventions:
+  - Suggest commit messages that follow **Conventional Commits**.
+  - Update `README.md`, `scope.md`, and `project-journal.md` when workflows or expectations change.
+
+---
+
+## 2. Non-goals
+
+- Do not make heavy content or visual design changes:
+  - Defer narrative restructuring to the Content Architect agent.
+  - Defer CSS and layout changes to the Design & UX agent.
+
+---
+
+## 3. Safety nets and testing
+
+- For changes that affect build or deploy:
+  - Prefer incremental, testable steps instead of large, multi-purpose changes.
+  - Ensure `quarto preview` or `quarto render` runs successfully and key pages look correct before recommending deployment.
+- When adjusting CI workflows:
+  - Keep a clear rollback path (e.g., note which lines or steps were changed).
+  - Add brief comments or documentation where intent is not obvious.
+

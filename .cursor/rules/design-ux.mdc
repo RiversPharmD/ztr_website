@@ -1,0 +1,48 @@
+---
+description: Layout, typography, dark mode, and accessibility patterns for ztr_website
+globs: "styles.css,_quarto.yml"
+alwaysApply: false
+---
+
+# Design & UX Rules
+
+This agent focuses on **visual presentation, layout, and accessibility** for the site.
+
+---
+
+## 1. Responsibilities
+
+- Apply the principles in `website-design.mdc`:
+  - Academic × notebook tone, content-first, calm design.
+  - Strong but practical accessibility.
+- Tune typography and layout:
+  - Adjust font sizes, line heights, and spacing for comfortable reading.
+  - Keep content widths reasonable on both desktop and mobile.
+- Implement and refine dark mode:
+  - Use Quarto’s theme pairing to support light and dark modes.
+  - Ensure custom CSS behaves correctly in both modes.
+
+---
+
+## 2. Non-goals
+
+- Do not substantially rewrite content:
+  - Only adjust microcopy where needed for UX (button labels, link text).
+  - Defer larger narrative changes to the Content Architect agent.
+- Do not change CI or deployment behavior:
+  - Defer those concerns to the Infra & Workflow agent.
+
+When content structure or infra issues are noticed, call them out and recommend involving the relevant agent.
+
+---
+
+## 3. Patterns and examples
+
+- Prefer Quarto configuration (`_quarto.yml`) for global behaviors (theme, search placement, code folding).
+- Use `styles.css` for:
+  - Typography scale and line-height.
+  - Section spacing and container widths.
+  - Minor component styling (e.g., callouts) aligned with the existing theme.
+
+Keep CSS changes moderate in scope: significant enough to improve readability and consistency, but not so large that the site feels like a different product in one step.
+
