@@ -42,6 +42,26 @@ For a more detailed, tactical breakdown, see the plan file under `.cursor/plans/
 
 ---
 
+### 2.1 Definition of Done for this phase
+
+This phase is \"done enough\" when all of the following are true:
+
+- **Content & narrative**
+  - The homepage clearly communicates who you are, what you do, and what you are looking for in roughly **3–4 sentences**.
+  - At least **three solid project case studies** (including the personal website) are in place and you are comfortable sharing them with employers/clients/peers.
+  - At least **three blog posts** exist that you would be happy for people to discover organically.
+
+- **UX & features**
+  - Dark mode works across all major pages (Home, About, Projects, Blog, Publications) without obvious visual glitches.
+  - **Search** and **RSS** are enabled and feel natural in the navigation.
+  - Recent posts and featured projects listings are implemented and clearly useful.
+
+- **Operations & coherence**
+  - There is one clear, documented deployment path that you can trigger without thinking.
+  - `scope.md`, `project-journal.md`, and the rules in `.cursor/rules/` reflect how the project actually works today (no obviously stale sections).
+
+---
+
 ### 3. In-scope vs out-of-scope
 
 **In scope (this phase):**
@@ -116,4 +136,5 @@ There is a separate, persistent markdown file in the repo root (working name: `p
 - A place to record **decisions, experiments, and learnings** about how to view and evolve this project.
 
 You can think of `scope.md` as the **current contract/charter**, and `project-journal.md` as the **lab notebook** that explains how we got here.
+
 

@@ -80,3 +80,34 @@ We don’t have to be rigid, but this format should keep entries short, scannabl
 - As we iterate on `index.qmd`, `about.qmd`, and `projects.qmd`, we may refine these principles and update the rule file.
 - We still need to make concrete theme and typography choices (e.g., final font stack, exact heading sizes) within these high-level guidelines.
 
+---
+
+## 2026-03-15 – Defining success, priorities, and meta-process
+
+**What we did**
+- Clarified a concrete \"Definition of Done\" for this 2–3 month phase and added it to `scope.md`.
+- Agreed to keep a small, ordered list of **Top 5 near-term priorities** to guide what we work on next.
+- Defined a lightweight cadence for reviewing `scope.md` and the rules under `.cursor/rules/`, and for logging changes in this journal.
+
+**Key learnings / decisions**
+- Success for this phase is not just \"site exists\" but:
+  - Clear, concise homepage positioning.
+  - Three strong project case studies and three solid posts.
+  - Working dark mode, search, RSS, and dynamic listings.
+  - A single, understandable deployment path.
+- We will use this journal to:
+  - Track not only work on the site, but also **changes to rules and scope**.
+  - Capture feedback when agent behavior feels off, so rules can be refined later.
+- Meta-reviews (of `scope.md` + rules) will happen roughly every **3–4 active sessions**, not on every tiny change.
+
+**Top 5 near-term priorities (initial draft)**
+1. Rewrite `about.qmd` to match the desired positioning (strong scientist, diverse skillset, human and personal).
+2. Define and implement a clearer structure for `projects.qmd`, and add at least one more project case study.
+3. Implement blog listings and clean up `blog/index.qmd` so it reflects real posts instead of placeholders.
+4. Do an initial dark mode and typography pass using `styles.css` and `_quarto.yml` within the current theme.
+5. Reconcile `_quarto.yml` `output-dir` / `publish-dir` with the GitHub Pages / CI setup and document the final approach.
+
+**Open questions / next steps**
+- Confirm or adjust the Top 5 priorities as we begin working through them.
+- Implement subagent rules (`project-core`, content, design, infra) and update this journal when they are added or changed.
+

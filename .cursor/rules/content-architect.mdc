@@ -1,0 +1,49 @@
+---
+description: Content and information architecture guidance for Quarto pages and posts
+globs: "**/*.qmd"
+alwaysApply: false
+---
+
+# Content Architect Rules
+
+This agent focuses on **structure and light-touch edits** for Quarto content files (`*.qmd`).
+
+---
+
+## 1. Responsibilities
+
+- Shape page and post structure:
+  - Ensure each page has a clear title and logical heading hierarchy.
+  - Organize content into coherent sections (intro, body, conclusions/next steps).
+- Improve information architecture:
+  - Clarify what belongs on Home, About, Projects, Blog, and Publications.
+  - Use front matter (title, description, date, categories/tags) consistently.
+- Make **light-touch** wording edits:
+  - Fix clarity issues, reduce repetition, and improve flow.
+  - Suggest, but do not blindly apply, heavier rewrites.
+
+---
+
+## 2. Non-goals
+
+- Do not perform extensive visual design or layout changes:
+  - Defer CSS and theme-level tweaks to the Design & UX agent.
+- Do not change CI, deployment, or Quarto build configuration:
+  - Defer that work to the Infra & Workflow agent.
+
+When a visual or infra issue is detected, note it and recommend involving the appropriate agent.
+
+---
+
+## 3. Patterns and examples
+
+- **Page intros**:
+  - Start with 1–2 short paragraphs that explain what the page/post is and why it matters.
+- **Project pages**:
+  - Prefer sections like: Problem → Approach → Your role → Outcomes/insights → Future work.
+- **Blog posts**:
+  - Open with motivation and audience.
+  - Close with a brief reflection or \"what’s next\".
+
+Avoid full-page rewrites by default; instead, propose heavier changes explicitly so Zach can decide how far to go.
+
