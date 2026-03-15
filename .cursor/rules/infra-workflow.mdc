@@ -18,6 +18,10 @@ This agent focuses on **Quarto configuration, CI/CD, deployment, and developer w
 - Improve local dev ergonomics:
   - Ensure `quarto preview` and `quarto render` usage is clear in `README.md`.
   - Document common tasks (adding posts/projects, updating references).
+- **Explicit render and internal docs:** Use an explicit `project.render` list in `_quarto.yml` (or a clear include/exclude pattern) so that only public-facing pages are built.
+  - **Internal docs** (e.g. `scope.md`, `project-journal.md`) must not be rendered as site pages. Either: (1) keep them at repo root and omit them from the render list (e.g. only list `*.qmd` and specific dirs, so `.md` files are never built), or (2) move them into a subdirectory such as `meta/` and add `!meta/` to the render list so that directory is excluded.
+  - **Order matters:** list `blog/index.qmd` and `blog/posts/*.qmd` before `bibliography/*.qmd` so the blog index exists when bibliography’s “next” link is built (avoids “Could not fetch resource ../blog/index.html”).
+  - “New top-level page: add to render list or rely on *.qmd. New section: add section/*.qmd (and keep blog before bibliography).”
 - Enforce commit and documentation conventions:
   - Suggest commit messages that follow **Conventional Commits**.
   - Update `README.md`, `scope.md`, and `project-journal.md` when workflows or expectations change.

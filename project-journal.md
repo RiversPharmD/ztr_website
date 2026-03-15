@@ -129,3 +129,20 @@ We don’t have to be rigid, but this format should keep entries short, scannabl
 - Set `site-url` in `_quarto.yml` to your real GitHub Pages URL (e.g. custom domain) if it differs from `https://zachr.github.io/ztr_website/`.
 - Run `quarto preview` and click through all nav items and both themes; add more project case studies and posts per the Top 5.
 
+---
+
+## 2026-03-15 – Sidebar navigation (Option B)
+
+**What we did**
+- Switched from **navbar** to **sidebar** navigation in `_quarto.yml`: removed navbar, added a single docked sidebar with Home, About, Projects, Blog, Publications; search lives in the sidebar; `background: light`, `border: false`.
+- Added **minimal sidebar CSS** in `styles.css`: light translucent background, thin right border, plain link styling (no button look); dark-mode–aware; minimal mobile title bar.
+- Build verified with `quarto render`.
+
+**Key learnings / decisions**
+- Quarto’s sidebar uses `#quarto-sidebar`, `.sidebar-navigation`, `.sidebar-link`, etc.; theme toggle and search appear in the sidebar when there is no navbar.
+- On narrow screens the sidebar collapses to a title bar; tapping it reveals the nav (drawer behavior).
+
+**Open questions / next steps**
+- **Reminder: Workshop a better name for the page.** After this sidebar design is in place, the next step is to workshop a better site title (currently “Zach’s Personal Website”). Consider options that fit the academic × personal tone (e.g. “Zach Rivers”, “Zach Rivers — Research & Writing”, or a short tagline). Update `website.title` in `_quarto.yml` and any visible labels when decided.
+- Run `quarto preview` and check sidebar on desktop and mobile in both light and dark themes; tweak CSS if needed.
+

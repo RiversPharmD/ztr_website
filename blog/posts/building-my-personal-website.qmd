@@ -4,7 +4,6 @@ author: "Zach"
 date: 2024-04-01
 categories: ["Technical Tutorials", "Project Updates"]
 tags: ["Quarto", "Web Development", "Personal Branding"]
-image: images/website-preview.jpg
 description: "A journey into creating a professional personal website using Quarto, from initial setup to deployment"
 ---
 

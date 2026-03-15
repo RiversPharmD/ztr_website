@@ -5,7 +5,6 @@ status: "In Progress"
 technologies: ["Quarto", "HTML", "CSS", "Git"]
 github: "https://github.com/yourusername/ztr_website"
 demo: "https://yourusername.github.io/ztr_website"
-image: images/website-preview.jpg
 ---
 
 # Project Overview

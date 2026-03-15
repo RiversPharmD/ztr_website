@@ -1,29 +1,38 @@
 project:
   type: website
   output-dir: _site
+  render:
+    - index.qmd
+    - about.qmd
+    - projects.qmd
+    - "projects/*.qmd"
+    - blog/index.qmd
+    - "blog/posts/*.qmd"
+    - "bibliography/*.qmd"
 
 website:
   title: "Zach's Personal Website"
   site-url: https://riverspharmd.github.io/ztr_website/
-  navbar:
-    left:
+  sidebar:
+    style: docked
+    search: true
+    background: light
+    border: false
+    contents:
       - text: "Home"
-        file: index.qmd
+        href: index.qmd
       - text: "About"
-        file: about.qmd
+        href: about.qmd
       - text: "Projects"
-        file: projects.qmd
+        href: projects.qmd
       - text: "Blog"
-        file: blog/index.qmd
+        href: blog/index.qmd
       - text: "Publications"
-        file: bibliography/published_works.qmd
-  page-navigation: true
+        href: bibliography/published_works.qmd
+  page-navigation: false
   page-footer:
     left: Copyright 2025
     right: Made with Quarto
-  search:
-    location: navbar
-    type: overlay
 
 format:
   html:
