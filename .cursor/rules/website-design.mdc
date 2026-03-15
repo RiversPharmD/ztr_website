@@ -1,0 +1,126 @@
+---
+description: Website and blog design principles for ztr_website
+alwaysApply: true
+---
+
+# Website & Blog Design Principles
+
+These rules guide the visual and content design of `ztr_website`. They apply to:
+
+- Quarto content files (`*.qmd`)
+- Site configuration (`_quarto.yml`)
+- Styling (`styles.css`)
+
+The goal is a site that feels:
+
+- **Serious and academic** enough to signal strong scientific and technical competence.
+- **Human and personal** enough to show your interests, personality, and values.
+- **Comfortable to read** for long-form content, on both desktop and mobile.
+
+Use these as guardrails, not handcuffs.
+
+---
+
+## 1. Overall design tone
+
+- **Content-first, calm design**:
+  - Prioritize legibility and structure over visual flash.
+  - Avoid heavy visual noise (busy backgrounds, gratuitous animations).
+- **Academic × Notebook hybrid**:
+  - Use clear headings, citations, and structure (academic).
+  - Allow lighter, reflective, or personal sections (notebook) especially in posts.
+- **Consistent voice across pages**:
+  - Technical when needed, but avoid unnecessary jargon.
+  - It’s acceptable (and encouraged) to sound like a real person.
+
+---
+
+## 2. Layout & typography
+
+- **Headings and hierarchy**:
+  - Every page should have a single clear `title` in front matter (`#` in rendered HTML).
+  - Use headings in order (`##`, then `###`) without skipping levels.
+  - Avoid overusing `####` and smaller headings; if you need many, reconsider the structure.
+- **Line length & spacing**:
+  - Aim for comfortable reading width (no extremely wide paragraphs).
+  - Use spacing between sections to make the outline obvious; avoid walls of text.
+- **Emphasis**:
+  - Use **bold** for key phrases and important takeaways.
+  - Use *italics* for sidenotes or softer emphasis.
+  - Avoid underlines for emphasis (reserve them for links).
+
+---
+
+## 3. Content presentation patterns
+
+- **Page intros**:
+  - Start pages with a short paragraph that answers: *“What is this and why should I care?”*
+  - Avoid starting with navigation, meta notes, or boilerplate—lead with context.
+- **Projects**:
+  - Each project page should include: problem, approach, your role, and outcomes/insights.
+  - Include at least one concrete artifact (figure, code snippet, or result) when possible.
+- **Blog posts**:
+  - Prefer a short introduction that frames the motivation and audience.
+  - Close with a short reflection or “what’s next” when relevant.
+- **Personal vs professional**:
+  - It is okay to mix personal reflections with technical content.
+  - Keep the structure clear so readers can distinguish narrative from technical details.
+
+---
+
+## 4. Accessibility & readability
+
+- **Contrast and colors**:
+  - Choose colors with **strong contrast** against the background (especially for text and links).
+  - Do not rely on color alone to convey meaning (use text labels or icons as needed).
+- **Text size**:
+  - Avoid very small base font sizes; prioritize comfortable reading for long posts.
+  - Code blocks and captions should remain legible on mobile.
+- **Headings and semantics**:
+  - Use headings, lists, and paragraphs semantically instead of styling plain text to look like headings.
+  - Prefer meaningful link text (“Read about the project”) over bare URLs or “click here”.
+- **Keyboard and focus basics**:
+  - Avoid custom elements that break keyboard navigation unless carefully considered.
+
+---
+
+## 5. Quarto & CSS conventions
+
+- **Quarto options**:
+  - Prefer using Quarto configuration (`_quarto.yml` and page-level options) for global behaviors (theme, dark mode, code folding) instead of ad-hoc HTML.
+  - Use listings and built-in features (search, RSS, categories) rather than hand-rolled equivalents when possible.
+- **Custom CSS (`styles.css`)**:
+  - Keep custom CSS **focused and minimal**; avoid overriding many theme defaults without a clear reason.
+  - Group related rules (typography, layout, components) and add brief comments when intent is not obvious.
+  - Make sure any custom colors work in both light and dark modes, or scope them carefully.
+
+---
+
+## 6. Conventional Commits
+
+Even though this rule is focused on design and content, we also use it to **reinforce good commit hygiene** in this repo.
+
+- **Use Conventional Commits for all commit messages**:
+  - Format: `type(scope): short, imperative summary`
+  - Common `type` values:
+    - `feat`: add or significantly change user-facing behavior, pages, or features.
+    - `fix`: bug fixes, broken builds, or regressions.
+    - `docs`: documentation-only changes (including `scope.md`, `project-journal.md`, and README updates).
+    - `style`: visual and CSS-only changes that do not change behavior.
+    - `refactor`: internal changes that neither fix a bug nor add a feature.
+    - `chore`: tooling, config, or CI changes.
+  - Examples:
+    - `feat(projects): add case study for survey modeling`
+    - `style(theme): tweak heading sizes for readability`
+    - `docs(scope): clarify in-scope features for v1`
+
+When in doubt, pick the type that best reflects the **primary intent** of the change. Please focus on keeping it *short*. Brevity in the commit message.
+
+---
+
+## 7. When in doubt
+
+- Ask: **“Does this change make it easier for a new visitor to understand who I am and what I do?”**
+- Choose clarity over cleverness in both design and wording.
+- If a design choice introduces complexity (custom JS, heavy overrides), prefer a simpler alternative unless it clearly supports the core goals in `scope.md`.
+
